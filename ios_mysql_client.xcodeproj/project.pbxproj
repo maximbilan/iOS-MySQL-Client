@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41CD4A7186A0FF8009BAC80 /* my_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = E41CD478186A0FF8009BAC80 /* my_config.h.in */; };
+		E41CD4A8186A0FF8009BAC80 /* mysql.h.pp in Sources */ = {isa = PBXBuildFile; fileRef = E41CD48E186A0FF8009BAC80 /* mysql.h.pp */; };
+		E41CD4A9186A0FF8009BAC80 /* mysql_version.h.in in Resources */ = {isa = PBXBuildFile; fileRef = E41CD492186A0FF8009BAC80 /* mysql_version.h.in */; };
+		E41CD4AA186A0FF8009BAC80 /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41CD4A6186A0FF8009BAC80 /* libmysqlclient.a */; };
+		E4F3D3AD186A00D4004D51C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3AC186A00D4004D51C6 /* Foundation.framework */; };
+		E4F3D3AF186A00D4004D51C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */; };
+		E4F3D3B1186A00D4004D51C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3B0186A00D4004D51C6 /* UIKit.framework */; };
+		E4F3D3B7186A00D4004D51C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D3B5186A00D4004D51C6 /* InfoPlist.strings */; };
+		E4F3D3B9186A00D4004D51C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D3B8186A00D4004D51C6 /* main.m */; };
+		E4F3D3BD186A00D4004D51C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D3BC186A00D4004D51C6 /* AppDelegate.m */; };
+		E4F3D3C0186A00D4004D51C6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D3BE186A00D4004D51C6 /* Main_iPhone.storyboard */; };
+		E4F3D3C3186A00D4004D51C6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D3C1186A00D4004D51C6 /* Main_iPad.storyboard */; };
+		E4F3D3C6186A00D4004D51C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D3C5186A00D4004D51C6 /* ViewController.m */; };
+		E4F3D3C8186A00D4004D51C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D3C7186A00D4004D51C6 /* Images.xcassets */; };
+		E4F3D43B186A0196004D51C6 /* MySqlController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D434186A0196004D51C6 /* MySqlController.m */; };
+		E4F3D43C186A0196004D51C6 /* MySqlDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D436186A0196004D51C6 /* MySqlDB.m */; };
+		E4F3D43D186A0196004D51C6 /* MySqlQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D438186A0196004D51C6 /* MySqlQuery.m */; };
+		E4F3D43E186A0196004D51C6 /* MySqlTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D43A186A0196004D51C6 /* MySqlTable.m */; };
+		E4F3D441186A0293004D51C6 /* ExampleMySqlController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D440186A0293004D51C6 /* ExampleMySqlController.m */; };
+		E4F3D444186A030A004D51C6 /* ExampleTable1MySqlTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3D443186A030A004D51C6 /* ExampleTable1MySqlTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E41CD460186A0FF8009BAC80 /* gcc_builtins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcc_builtins.h; sourceTree = "<group>"; };
+		E41CD461186A0FF8009BAC80 /* generic-msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "generic-msvc.h"; sourceTree = "<group>"; };
+		E41CD462186A0FF8009BAC80 /* nolock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nolock.h; sourceTree = "<group>"; };
+		E41CD463186A0FF8009BAC80 /* rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rwlock.h; sourceTree = "<group>"; };
+		E41CD464186A0FF8009BAC80 /* x86-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "x86-gcc.h"; sourceTree = "<group>"; };
+		E41CD465186A0FF8009BAC80 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		E41CD466186A0FF8009BAC80 /* config-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-win.h"; sourceTree = "<group>"; };
+		E41CD467186A0FF8009BAC80 /* decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal.h; sourceTree = "<group>"; };
+		E41CD468186A0FF8009BAC80 /* errmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errmsg.h; sourceTree = "<group>"; };
+		E41CD469186A0FF8009BAC80 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		E41CD46A186A0FF8009BAC80 /* keycache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keycache.h; sourceTree = "<group>"; };
+		E41CD46B186A0FF8009BAC80 /* lf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lf.h; sourceTree = "<group>"; };
+		E41CD46C186A0FF8009BAC80 /* m_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_ctype.h; sourceTree = "<group>"; };
+		E41CD46D186A0FF8009BAC80 /* m_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_string.h; sourceTree = "<group>"; };
+		E41CD46E186A0FF8009BAC80 /* my_aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_aes.h; sourceTree = "<group>"; };
+		E41CD46F186A0FF8009BAC80 /* my_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alarm.h; sourceTree = "<group>"; };
+		E41CD470186A0FF8009BAC80 /* my_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alloc.h; sourceTree = "<group>"; };
+		E41CD471186A0FF8009BAC80 /* my_atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_atomic.h; sourceTree = "<group>"; };
+		E41CD472186A0FF8009BAC80 /* my_attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_attribute.h; sourceTree = "<group>"; };
+		E41CD473186A0FF8009BAC80 /* my_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_base.h; sourceTree = "<group>"; };
+		E41CD474186A0FF8009BAC80 /* my_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bit.h; sourceTree = "<group>"; };
+		E41CD475186A0FF8009BAC80 /* my_bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bitmap.h; sourceTree = "<group>"; };
+		E41CD476186A0FF8009BAC80 /* my_charsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_charsets.h; sourceTree = "<group>"; };
+		E41CD477186A0FF8009BAC80 /* my_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_config.h; sourceTree = "<group>"; };
+		E41CD478186A0FF8009BAC80 /* my_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_config.h.in; sourceTree = "<group>"; };
+		E41CD479186A0FF8009BAC80 /* my_dbug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dbug.h; sourceTree = "<group>"; };
+		E41CD47A186A0FF8009BAC80 /* my_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dir.h; sourceTree = "<group>"; };
+		E41CD47B186A0FF8009BAC80 /* my_getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_getopt.h; sourceTree = "<group>"; };
+		E41CD47C186A0FF8009BAC80 /* my_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_global.h; sourceTree = "<group>"; };
+		E41CD47D186A0FF8009BAC80 /* my_libwrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_libwrap.h; sourceTree = "<group>"; };
+		E41CD47E186A0FF8009BAC80 /* my_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_list.h; sourceTree = "<group>"; };
+		E41CD47F186A0FF8009BAC80 /* my_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_md5.h; sourceTree = "<group>"; };
+		E41CD480186A0FF8009BAC80 /* my_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_net.h; sourceTree = "<group>"; };
+		E41CD481186A0FF8009BAC80 /* my_no_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_no_pthread.h; sourceTree = "<group>"; };
+		E41CD482186A0FF8009BAC80 /* my_nosys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_nosys.h; sourceTree = "<group>"; };
+		E41CD483186A0FF8009BAC80 /* my_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_pthread.h; sourceTree = "<group>"; };
+		E41CD484186A0FF8009BAC80 /* my_stacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_stacktrace.h; sourceTree = "<group>"; };
+		E41CD485186A0FF8009BAC80 /* my_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_sys.h; sourceTree = "<group>"; };
+		E41CD486186A0FF8009BAC80 /* my_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_time.h; sourceTree = "<group>"; };
+		E41CD487186A0FF8009BAC80 /* my_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_tree.h; sourceTree = "<group>"; };
+		E41CD488186A0FF8009BAC80 /* my_trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_trie.h; sourceTree = "<group>"; };
+		E41CD489186A0FF8009BAC80 /* my_uctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_uctype.h; sourceTree = "<group>"; };
+		E41CD48A186A0FF8009BAC80 /* my_vle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_vle.h; sourceTree = "<group>"; };
+		E41CD48B186A0FF8009BAC80 /* my_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_xml.h; sourceTree = "<group>"; };
+		E41CD48C186A0FF8009BAC80 /* myisampack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myisampack.h; sourceTree = "<group>"; };
+		E41CD48D186A0FF8009BAC80 /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		E41CD48E186A0FF8009BAC80 /* mysql.h.pp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = mysql.h.pp; sourceTree = "<group>"; };
+		E41CD48F186A0FF8009BAC80 /* mysql_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_com.h; sourceTree = "<group>"; };
+		E41CD490186A0FF8009BAC80 /* mysql_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_time.h; sourceTree = "<group>"; };
+		E41CD491186A0FF8009BAC80 /* mysql_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_version.h; sourceTree = "<group>"; };
+		E41CD492186A0FF8009BAC80 /* mysql_version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mysql_version.h.in; sourceTree = "<group>"; };
+		E41CD493186A0FF8009BAC80 /* mysqld_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_error.h; sourceTree = "<group>"; };
+		E41CD495186A0FF8009BAC80 /* rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rijndael.h; sourceTree = "<group>"; };
+		E41CD496186A0FF8009BAC80 /* mysys_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysys_err.h; sourceTree = "<group>"; };
+		E41CD497186A0FF8009BAC80 /* queues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queues.h; sourceTree = "<group>"; };
+		E41CD498186A0FF8009BAC80 /* service_versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_versions.h; sourceTree = "<group>"; };
+		E41CD499186A0FF8009BAC80 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		E41CD49A186A0FF8009BAC80 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		E41CD49B186A0FF8009BAC80 /* sql_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_common.h; sourceTree = "<group>"; };
+		E41CD49C186A0FF8009BAC80 /* sslopt-case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-case.h"; sourceTree = "<group>"; };
+		E41CD49D186A0FF8009BAC80 /* sslopt-longopts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-longopts.h"; sourceTree = "<group>"; };
+		E41CD49E186A0FF8009BAC80 /* sslopt-vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-vars.h"; sourceTree = "<group>"; };
+		E41CD49F186A0FF8009BAC80 /* t_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_ctype.h; sourceTree = "<group>"; };
+		E41CD4A0186A0FF8009BAC80 /* thr_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_alarm.h; sourceTree = "<group>"; };
+		E41CD4A1186A0FF8009BAC80 /* thr_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_lock.h; sourceTree = "<group>"; };
+		E41CD4A2186A0FF8009BAC80 /* typelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typelib.h; sourceTree = "<group>"; };
+		E41CD4A3186A0FF8009BAC80 /* violite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = violite.h; sourceTree = "<group>"; };
+		E41CD4A4186A0FF8009BAC80 /* waiting_threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waiting_threads.h; sourceTree = "<group>"; };
+		E41CD4A5186A0FF8009BAC80 /* wqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wqueue.h; sourceTree = "<group>"; };
+		E41CD4A6186A0FF8009BAC80 /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlclient.a; sourceTree = "<group>"; };
+		E4F3D3A9186A00D4004D51C6 /* ios_mysql_client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_mysql_client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F3D3AC186A00D4004D51C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4F3D3B0186A00D4004D51C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4F3D3B4186A00D4004D51C6 /* ios_mysql_client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_mysql_client-Info.plist"; sourceTree = "<group>"; };
+		E4F3D3B6186A00D4004D51C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4F3D3B8186A00D4004D51C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4F3D3BA186A00D4004D51C6 /* ios_mysql_client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_mysql_client-Prefix.pch"; sourceTree = "<group>"; };
+		E4F3D3BB186A00D4004D51C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4F3D3BC186A00D4004D51C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4F3D3BF186A00D4004D51C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E4F3D3C2186A00D4004D51C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E4F3D3C4186A00D4004D51C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4F3D3C5186A00D4004D51C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4F3D3C7186A00D4004D51C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4F3D3CE186A00D4004D51C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4F3D433186A0196004D51C6 /* MySqlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlController.h; sourceTree = "<group>"; };
+		E4F3D434186A0196004D51C6 /* MySqlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlController.m; sourceTree = "<group>"; };
+		E4F3D435186A0196004D51C6 /* MySqlDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlDB.h; sourceTree = "<group>"; };
+		E4F3D436186A0196004D51C6 /* MySqlDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlDB.m; sourceTree = "<group>"; };
+		E4F3D437186A0196004D51C6 /* MySqlQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlQuery.h; sourceTree = "<group>"; };
+		E4F3D438186A0196004D51C6 /* MySqlQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlQuery.m; sourceTree = "<group>"; };
+		E4F3D439186A0196004D51C6 /* MySqlTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlTable.h; sourceTree = "<group>"; };
+		E4F3D43A186A0196004D51C6 /* MySqlTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlTable.m; sourceTree = "<group>"; };
+		E4F3D43F186A0293004D51C6 /* ExampleMySqlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleMySqlController.h; path = sources/ExampleMySqlController.h; sourceTree = "<group>"; };
+		E4F3D440186A0293004D51C6 /* ExampleMySqlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleMySqlController.m; path = sources/ExampleMySqlController.m; sourceTree = "<group>"; };
+		E4F3D442186A030A004D51C6 /* ExampleTable1MySqlTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTable1MySqlTable.h; path = sources/ExampleTable1MySqlTable.h; sourceTree = "<group>"; };
+		E4F3D443186A030A004D51C6 /* ExampleTable1MySqlTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTable1MySqlTable.m; path = sources/ExampleTable1MySqlTable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F3D3A6186A00D4004D51C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3D3AF186A00D4004D51C6 /* CoreGraphics.framework in Frameworks */,
+				E4F3D3B1186A00D4004D51C6 /* UIKit.framework in Frameworks */,
+				E4F3D3AD186A00D4004D51C6 /* Foundation.framework in Frameworks */,
+				E41CD4AA186A0FF8009BAC80 /* libmysqlclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E41CD45D186A0FF8009BAC80 /* mysql-connector */ = {
+			isa = PBXGroup;
+			children = (
+				E41CD45E186A0FF8009BAC80 /* include */,
+				E41CD4A6186A0FF8009BAC80 /* libmysqlclient.a */,
+			);
+			name = "mysql-connector";
+			path = "sources/mysql-connector";
+			sourceTree = "<group>";
+		};
+		E41CD45E186A0FF8009BAC80 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E41CD45F186A0FF8009BAC80 /* atomic */,
+				E41CD465186A0FF8009BAC80 /* base64.h */,
+				E41CD466186A0FF8009BAC80 /* config-win.h */,
+				E41CD467186A0FF8009BAC80 /* decimal.h */,
+				E41CD468186A0FF8009BAC80 /* errmsg.h */,
+				E41CD469186A0FF8009BAC80 /* hash.h */,
+				E41CD46A186A0FF8009BAC80 /* keycache.h */,
+				E41CD46B186A0FF8009BAC80 /* lf.h */,
+				E41CD46C186A0FF8009BAC80 /* m_ctype.h */,
+				E41CD46D186A0FF8009BAC80 /* m_string.h */,
+				E41CD46E186A0FF8009BAC80 /* my_aes.h */,
+				E41CD46F186A0FF8009BAC80 /* my_alarm.h */,
+				E41CD470186A0FF8009BAC80 /* my_alloc.h */,
+				E41CD471186A0FF8009BAC80 /* my_atomic.h */,
+				E41CD472186A0FF8009BAC80 /* my_attribute.h */,
+				E41CD473186A0FF8009BAC80 /* my_base.h */,
+				E41CD474186A0FF8009BAC80 /* my_bit.h */,
+				E41CD475186A0FF8009BAC80 /* my_bitmap.h */,
+				E41CD476186A0FF8009BAC80 /* my_charsets.h */,
+				E41CD477186A0FF8009BAC80 /* my_config.h */,
+				E41CD478186A0FF8009BAC80 /* my_config.h.in */,
+				E41CD479186A0FF8009BAC80 /* my_dbug.h */,
+				E41CD47A186A0FF8009BAC80 /* my_dir.h */,
+				E41CD47B186A0FF8009BAC80 /* my_getopt.h */,
+				E41CD47C186A0FF8009BAC80 /* my_global.h */,
+				E41CD47D186A0FF8009BAC80 /* my_libwrap.h */,
+				E41CD47E186A0FF8009BAC80 /* my_list.h */,
+				E41CD47F186A0FF8009BAC80 /* my_md5.h */,
+				E41CD480186A0FF8009BAC80 /* my_net.h */,
+				E41CD481186A0FF8009BAC80 /* my_no_pthread.h */,
+				E41CD482186A0FF8009BAC80 /* my_nosys.h */,
+				E41CD483186A0FF8009BAC80 /* my_pthread.h */,
+				E41CD484186A0FF8009BAC80 /* my_stacktrace.h */,
+				E41CD485186A0FF8009BAC80 /* my_sys.h */,
+				E41CD486186A0FF8009BAC80 /* my_time.h */,
+				E41CD487186A0FF8009BAC80 /* my_tree.h */,
+				E41CD488186A0FF8009BAC80 /* my_trie.h */,
+				E41CD489186A0FF8009BAC80 /* my_uctype.h */,
+				E41CD48A186A0FF8009BAC80 /* my_vle.h */,
+				E41CD48B186A0FF8009BAC80 /* my_xml.h */,
+				E41CD48C186A0FF8009BAC80 /* myisampack.h */,
+				E41CD48D186A0FF8009BAC80 /* mysql.h */,
+				E41CD48E186A0FF8009BAC80 /* mysql.h.pp */,
+				E41CD48F186A0FF8009BAC80 /* mysql_com.h */,
+				E41CD490186A0FF8009BAC80 /* mysql_time.h */,
+				E41CD491186A0FF8009BAC80 /* mysql_version.h */,
+				E41CD492186A0FF8009BAC80 /* mysql_version.h.in */,
+				E41CD493186A0FF8009BAC80 /* mysqld_error.h */,
+				E41CD494186A0FF8009BAC80 /* mysys */,
+				E41CD496186A0FF8009BAC80 /* mysys_err.h */,
+				E41CD497186A0FF8009BAC80 /* queues.h */,
+				E41CD498186A0FF8009BAC80 /* service_versions.h */,
+				E41CD499186A0FF8009BAC80 /* sha1.h */,
+				E41CD49A186A0FF8009BAC80 /* sha2.h */,
+				E41CD49B186A0FF8009BAC80 /* sql_common.h */,
+				E41CD49C186A0FF8009BAC80 /* sslopt-case.h */,
+				E41CD49D186A0FF8009BAC80 /* sslopt-longopts.h */,
+				E41CD49E186A0FF8009BAC80 /* sslopt-vars.h */,
+				E41CD49F186A0FF8009BAC80 /* t_ctype.h */,
+				E41CD4A0186A0FF8009BAC80 /* thr_alarm.h */,
+				E41CD4A1186A0FF8009BAC80 /* thr_lock.h */,
+				E41CD4A2186A0FF8009BAC80 /* typelib.h */,
+				E41CD4A3186A0FF8009BAC80 /* violite.h */,
+				E41CD4A4186A0FF8009BAC80 /* waiting_threads.h */,
+				E41CD4A5186A0FF8009BAC80 /* wqueue.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E41CD45F186A0FF8009BAC80 /* atomic */ = {
+			isa = PBXGroup;
+			children = (
+				E41CD460186A0FF8009BAC80 /* gcc_builtins.h */,
+				E41CD461186A0FF8009BAC80 /* generic-msvc.h */,
+				E41CD462186A0FF8009BAC80 /* nolock.h */,
+				E41CD463186A0FF8009BAC80 /* rwlock.h */,
+				E41CD464186A0FF8009BAC80 /* x86-gcc.h */,
+			);
+			path = atomic;
+			sourceTree = "<group>";
+		};
+		E41CD494186A0FF8009BAC80 /* mysys */ = {
+			isa = PBXGroup;
+			children = (
+				E41CD495186A0FF8009BAC80 /* rijndael.h */,
+			);
+			path = mysys;
+			sourceTree = "<group>";
+		};
+		E4F3D3A0186A00D4004D51C6 = {
+			isa = PBXGroup;
+			children = (
+				E4F3D3B2186A00D4004D51C6 /* ios_mysql_client */,
+				E4F3D3AB186A00D4004D51C6 /* Frameworks */,
+				E4F3D3AA186A00D4004D51C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F3D3AA186A00D4004D51C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D3A9186A00D4004D51C6 /* ios_mysql_client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F3D3AB186A00D4004D51C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D3AC186A00D4004D51C6 /* Foundation.framework */,
+				E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */,
+				E4F3D3B0186A00D4004D51C6 /* UIKit.framework */,
+				E4F3D3CE186A00D4004D51C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F3D3B2186A00D4004D51C6 /* ios_mysql_client */ = {
+			isa = PBXGroup;
+			children = (
+				E41CD45D186A0FF8009BAC80 /* mysql-connector */,
+				E4F3D432186A0196004D51C6 /* MySQLWrapper */,
+				E4F3D3BB186A00D4004D51C6 /* AppDelegate.h */,
+				E4F3D3BC186A00D4004D51C6 /* AppDelegate.m */,
+				E4F3D3BE186A00D4004D51C6 /* Main_iPhone.storyboard */,
+				E4F3D3C1186A00D4004D51C6 /* Main_iPad.storyboard */,
+				E4F3D3C4186A00D4004D51C6 /* ViewController.h */,
+				E4F3D3C5186A00D4004D51C6 /* ViewController.m */,
+				E4F3D3C7186A00D4004D51C6 /* Images.xcassets */,
+				E4F3D3B3186A00D4004D51C6 /* Supporting Files */,
+				E4F3D43F186A0293004D51C6 /* ExampleMySqlController.h */,
+				E4F3D440186A0293004D51C6 /* ExampleMySqlController.m */,
+				E4F3D442186A030A004D51C6 /* ExampleTable1MySqlTable.h */,
+				E4F3D443186A030A004D51C6 /* ExampleTable1MySqlTable.m */,
+			);
+			path = ios_mysql_client;
+			sourceTree = "<group>";
+		};
+		E4F3D3B3186A00D4004D51C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D3B4186A00D4004D51C6 /* ios_mysql_client-Info.plist */,
+				E4F3D3B5186A00D4004D51C6 /* InfoPlist.strings */,
+				E4F3D3B8186A00D4004D51C6 /* main.m */,
+				E4F3D3BA186A00D4004D51C6 /* ios_mysql_client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4F3D432186A0196004D51C6 /* MySQLWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D433186A0196004D51C6 /* MySqlController.h */,
+				E4F3D434186A0196004D51C6 /* MySqlController.m */,
+				E4F3D435186A0196004D51C6 /* MySqlDB.h */,
+				E4F3D436186A0196004D51C6 /* MySqlDB.m */,
+				E4F3D437186A0196004D51C6 /* MySqlQuery.h */,
+				E4F3D438186A0196004D51C6 /* MySqlQuery.m */,
+				E4F3D439186A0196004D51C6 /* MySqlTable.h */,
+				E4F3D43A186A0196004D51C6 /* MySqlTable.m */,
+			);
+			name = MySQLWrapper;
+			path = sources/MySQLWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F3D3A8186A00D4004D51C6 /* ios_mysql_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F3D3DE186A00D4004D51C6 /* Build configuration list for PBXNativeTarget "ios_mysql_client" */;
+			buildPhases = (
+				E4F3D3A5186A00D4004D51C6 /* Sources */,
+				E4F3D3A6186A00D4004D51C6 /* Frameworks */,
+				E4F3D3A7186A00D4004D51C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_mysql_client;
+			productName = ios_mysql_client;
+			productReference = E4F3D3A9186A00D4004D51C6 /* ios_mysql_client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F3D3A1186A00D4004D51C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Maxim Bilan";
+			};
+			buildConfigurationList = E4F3D3A4186A00D4004D51C6 /* Build configuration list for PBXProject "ios_mysql_client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4F3D3A0186A00D4004D51C6;
+			productRefGroup = E4F3D3AA186A00D4004D51C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F3D3A8186A00D4004D51C6 /* ios_mysql_client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F3D3A7186A00D4004D51C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3D3C3186A00D4004D51C6 /* Main_iPad.storyboard in Resources */,
+				E4F3D3C8186A00D4004D51C6 /* Images.xcassets in Resources */,
+				E41CD4A7186A0FF8009BAC80 /* my_config.h.in in Resources */,
+				E4F3D3C0186A00D4004D51C6 /* Main_iPhone.storyboard in Resources */,
+				E41CD4A9186A0FF8009BAC80 /* mysql_version.h.in in Resources */,
+				E4F3D3B7186A00D4004D51C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F3D3A5186A00D4004D51C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3D43C186A0196004D51C6 /* MySqlDB.m in Sources */,
+				E4F3D441186A0293004D51C6 /* ExampleMySqlController.m in Sources */,
+				E4F3D444186A030A004D51C6 /* ExampleTable1MySqlTable.m in Sources */,
+				E4F3D43B186A0196004D51C6 /* MySqlController.m in Sources */,
+				E4F3D3C6186A00D4004D51C6 /* ViewController.m in Sources */,
+				E4F3D3BD186A00D4004D51C6 /* AppDelegate.m in Sources */,
+				E4F3D43E186A0196004D51C6 /* MySqlTable.m in Sources */,
+				E4F3D43D186A0196004D51C6 /* MySqlQuery.m in Sources */,
+				E41CD4A8186A0FF8009BAC80 /* mysql.h.pp in Sources */,
+				E4F3D3B9186A00D4004D51C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4F3D3B5186A00D4004D51C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3D3B6186A00D4004D51C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4F3D3BE186A00D4004D51C6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3D3BF186A00D4004D51C6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E4F3D3C1186A00D4004D51C6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3D3C2186A00D4004D51C6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4F3D3DC186A00D4004D51C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F3D3DD186A00D4004D51C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F3D3DF186A00D4004D51C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios_mysql_client/ios_mysql_client-Prefix.pch";
+				INFOPLIST_FILE = "ios_mysql_client/ios_mysql_client-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/BilanM/Work/ios_mysql_client/ios_mysql_client/sources/mysql-connector",
+					"/Users/BilanM/Work/ios_mysql_client/ios_mysql_client/ios_mysql_client/sources/mysql-connector",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4F3D3E0186A00D4004D51C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios_mysql_client/ios_mysql_client-Prefix.pch";
+				INFOPLIST_FILE = "ios_mysql_client/ios_mysql_client-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/BilanM/Work/ios_mysql_client/ios_mysql_client/sources/mysql-connector",
+					"/Users/BilanM/Work/ios_mysql_client/ios_mysql_client/ios_mysql_client/sources/mysql-connector",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F3D3A4186A00D4004D51C6 /* Build configuration list for PBXProject "ios_mysql_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F3D3DC186A00D4004D51C6 /* Debug */,
+				E4F3D3DD186A00D4004D51C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F3D3DE186A00D4004D51C6 /* Build configuration list for PBXNativeTarget "ios_mysql_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F3D3DF186A00D4004D51C6 /* Debug */,
+				E4F3D3E0186A00D4004D51C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F3D3A1186A00D4004D51C6 /* Project object */;
+}
