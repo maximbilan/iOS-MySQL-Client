@@ -1,6 +1,6 @@
 ios_mysql_client
 ================
 
-iOS MySql Client
+Obj C MySql Wrapper
 
-Simple example for using of mysql on ios platform.
+Simple obj c wrapper for using mysql database on ios platform.
