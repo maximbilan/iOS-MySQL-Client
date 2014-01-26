@@ -1,4 +1,4 @@
-ios MySQL Client
+iOS MySQL Client
 ================
 
 Simple Obj C wrapper for using mysql database on ios platform.
