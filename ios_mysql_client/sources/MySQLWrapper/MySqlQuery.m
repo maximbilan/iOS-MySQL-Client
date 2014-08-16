@@ -14,52 +14,45 @@
 - (id)init
 {
     self = [super init];
-    if( self )
-    {
+    if (self) {
         result = [[NSMutableDictionary alloc] init];
     }
     return self;
 }
 
-- (void)execQuery:(NSString *)query withDB:(MySqlDB *)db
+- (void)execQuery:(NSString *)query toDB:(MySqlDB *)db
 {
     [result removeAllObjects];
     
-    if( mysql_query( db.mysql, query.UTF8String ) )
-    {
+    if (mysql_query(db.mysql, query.UTF8String)) {
         [db mysqlError];
     }
     
-    MYSQL_RES *res = mysql_use_result( db.mysql );
-    if( res )
-    {
-        unsigned int num_fields = mysql_num_fields( res );
+    MYSQL_RES *res = mysql_use_result(db.mysql);
+    if (res) {
+        const unsigned int num_fields = mysql_num_fields(res);
         MYSQL_FIELD *field;
         NSMutableArray *data = [[NSMutableArray alloc] init];
         char *headers[num_fields];
-        for( unsigned int i = 0; ( field = mysql_fetch_field( res ) ); ++i )
-        {
+        for (unsigned int i = 0; (field = mysql_fetch_field(res)); ++i) {
             headers[i] = field->name;
-            NSMutableArray* rowData = [[NSMutableArray alloc] init];
+            NSMutableArray *rowData = [[NSMutableArray alloc] init];
             [data addObject:rowData];
         }
         
         MYSQL_ROW row;
-        while(( row = mysql_fetch_row( res )))
-        {
-            for( unsigned int i = 0; i < [data count]; ++i )
-            {
-                NSString* sField = [NSString stringWithUTF8String:row[i]];
+        while ((row = mysql_fetch_row(res))) {
+            for (unsigned int i = 0; i < [data count]; ++i) {
+                NSString *sField = [NSString stringWithUTF8String:row[i]];
                 [[data objectAtIndex:i] addObject:sField];
             }
         }
         
-        for( unsigned int i = 0; i < [data count]; ++i )
-        {
+        for (unsigned int i = 0; i < [data count]; ++i) {
             [result setObject:[data objectAtIndex:i] forKey:[NSString stringWithUTF8String:headers[i]]];
         }
         
-        mysql_free_result( res );
+        mysql_free_result(res);
     }
 }
 

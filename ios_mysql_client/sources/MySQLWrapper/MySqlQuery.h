@@ -15,7 +15,7 @@
     NSMutableDictionary *result;
 }
 
-- (void)execQuery:(NSString *)query withDB:(MySqlDB *)db;
+- (void)execQuery:(NSString *)query toDB:(MySqlDB *)db;
 - (NSMutableDictionary *)getResult;
 
 @end

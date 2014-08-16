@@ -8,7 +8,7 @@
 
 #import "MySqlController.h"
 
-typedef NS_ENUM( NSInteger, ExampleTableId )
+typedef NS_ENUM(NSInteger, ExampleTableId)
 {
     ExampleTable1,
 	

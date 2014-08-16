@@ -15,8 +15,7 @@
 - (id)init
 {
     self = [super init];
-    if( self )
-    {
+    if (self) {
         db = [[MySqlDB alloc] init];
         tables = [[NSMutableArray alloc] init];
         
@@ -29,7 +28,9 @@
 {
 }
 
-- (void)connectToDB:(NSString *)serverName withDbName:(NSString *)dbName withSocket:(NSString *)socket withPort:(NSInteger)port withUsername:(NSString *)username withPassword:(NSString *) password
+- (void)connectToServer:(NSString *)serverName withDbName:(NSString *)dbName
+             withSocket:(NSString *)socket withPort:(NSInteger)port
+           withUsername:(NSString *)username withPassword:(NSString *)password
 {
     [db setSocket:socket];
     [db setServerName:serverName];
@@ -47,10 +48,8 @@
 
 - (MySqlTable *)getTableById:(NSInteger)tableId
 {
-    for( MySqlTable *table in tables )
-    {
-        if( [table tableId] == tableId )
-        {
+    for (MySqlTable *table in tables) {
+        if ([table tableId] == tableId) {
             return table;
         }
     }

@@ -26,8 +26,7 @@
 - (id)init
 {
     self = [super init];
-    if( self )
-    {
+    if (self) {
         _query = [[MySqlQuery alloc] init];
     }
     return self;

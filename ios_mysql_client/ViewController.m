@@ -10,6 +10,13 @@
 #import "ExampleMySqlController.h"
 #import "ExampleTable1MySqlTable.h"
 
+static NSString * const kServerName = @"localhost";
+static NSString * const kDbName     = @"testdb";
+static NSString * const kSocket     = @"/Applications/MAMP/tmp/mysql/mysql.sock";
+static const NSInteger  kPort       = 8889;
+static NSString * const kUsername   = @"root";
+static NSString * const kPassword   = @"root";
+
 @interface ViewController ()
 
 @end
@@ -21,17 +28,17 @@
     [super viewDidLoad];
     
     ExampleMySqlController *cMySqlController = [[ExampleMySqlController alloc] init];
-    [cMySqlController connectToDB:@"localhost"
-                       withDbName:@"testdb"
-                       withSocket:@"/Applications/MAMP/tmp/mysql/mysql.sock"
-                         withPort:8889
-                     withUsername:@"root"
-                     withPassword:@"root"];
+    [cMySqlController connectToServer:kServerName
+                           withDbName:kDbName
+                           withSocket:kSocket
+                             withPort:kPort
+                         withUsername:kUsername
+                         withPassword:kPassword];
+    
     ExampleTable1MySqlTable *table = (ExampleTable1MySqlTable *)[cMySqlController getTableById:ExampleTable1];
-    if( table )
-    {
+    if (table) {
         NSArray *arr = [table selectRows];
-        NSLog( @"%@", arr );
+        NSLog(@"%@", arr);
         
         // insert
         ExampleTable1MySqlTableRow *row = [[ExampleTable1MySqlTableRow alloc] init];
@@ -48,11 +55,6 @@
         updateRow.field3 = @"zzzzz";
         [table updateRow:updateRow];
     }
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 @end
