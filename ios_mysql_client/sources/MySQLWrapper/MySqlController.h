@@ -19,7 +19,7 @@
 
 - (void)initTables;
 - (void)connectToServer:(NSString *)serverName withDbName:(NSString *)dbName
-             withSocket:(NSString *)socket withPort:(NSInteger)port
+             withSocket:(NSString *)socket withPort:(unsigned int)port
            withUsername:(NSString *)username withPassword:(NSString *)password;
 - (void)disconnect;
 - (MySqlTable *)getTableById:(NSInteger)tableId;

@@ -17,7 +17,7 @@
 @property (nonatomic, strong) NSString  *socket;
 @property (nonatomic, strong) NSString  *serverName;
 @property (nonatomic, strong) NSString  *dbName;
-@property                     NSInteger port;
+@property                 unsigned int  port;
 @property (nonatomic, strong) NSString  *userName;
 @property (nonatomic, strong) NSString  *password;
 
