@@ -1,0 +1,6 @@
+#include "Pods-mysql-connector-c.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/mysql-connector-c" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/mysql-connector-c"
+LIBRARY_SEARCH_PATHS = ${PODS_MYSQL_CONNECTOR_C_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = ${PODS_MYSQL_CONNECTOR_C_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

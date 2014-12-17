@@ -1,0 +1,2 @@
+PODS_MYSQL_CONNECTOR_C_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/mysql-connector-c/Sources"
+PODS_MYSQL_CONNECTOR_C_OTHER_LDFLAGS = -l"c++" -l"mysqlclient"

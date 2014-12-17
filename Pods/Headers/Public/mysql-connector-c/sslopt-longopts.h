@@ -1,0 +1,1 @@
+../../../mysql-connector-c/Sources/include/sslopt-longopts.h

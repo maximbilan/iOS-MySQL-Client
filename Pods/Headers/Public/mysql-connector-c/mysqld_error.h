@@ -1,0 +1,1 @@
+../../../mysql-connector-c/Sources/include/mysqld_error.h
