@@ -18,7 +18,7 @@
 @synthesize password = _password;
 @synthesize mysql;
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     if (self) {
@@ -63,7 +63,7 @@
 {
     const char* ch = mysql_error(mysql);
     if (ch) {
-        NSString *error = [NSString stringWithUTF8String:ch];
+        NSString *error = @(ch);
         if (error.length) {
             NSLog(@"MySQL error: %@", error);
         }

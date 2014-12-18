@@ -11,7 +11,7 @@
 
 @implementation MySqlQuery
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     if (self) {
@@ -43,13 +43,13 @@
         MYSQL_ROW row;
         while ((row = mysql_fetch_row(res))) {
             for (unsigned int i = 0; i < [data count]; ++i) {
-                NSString *sField = [NSString stringWithUTF8String:row[i]];
-                [[data objectAtIndex:i] addObject:sField];
+                NSString *sField = @(row[i]);
+                [data[i] addObject:sField];
             }
         }
         
         for (unsigned int i = 0; i < [data count]; ++i) {
-            [result setObject:[data objectAtIndex:i] forKey:[NSString stringWithUTF8String:headers[i]]];
+            result[@(headers[i])] = data[i];
         }
         
         mysql_free_result(res);

@@ -61,10 +61,10 @@
     
     for (NSUInteger index = 0; index < [idArray count]; ++index) {
         ExampleTable1MySqlTableRow *row = [[ExampleTable1MySqlTableRow alloc] init];
-        row.tableId = [[idArray objectAtIndex:index] integerValue];
-        row.field1 = [field1Array objectAtIndex:index];
-        row.field2 = [field2Array objectAtIndex:index];
-        row.field3 = [field3Array objectAtIndex:index];
+        row.tableId = [idArray[index] integerValue];
+        row.field1 = field1Array[index];
+        row.field2 = field2Array[index];
+        row.field3 = field3Array[index];
         
         [*data addObject:row];
     }

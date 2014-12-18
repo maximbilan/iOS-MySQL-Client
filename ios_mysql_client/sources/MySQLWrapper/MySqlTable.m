@@ -23,7 +23,7 @@
 @synthesize tableId = _tableId;
 @synthesize name = _name;
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     if (self) {
