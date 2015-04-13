@@ -1,0 +1,1 @@
+../../../mysql-connector-c/Sources/include/myisampack.h

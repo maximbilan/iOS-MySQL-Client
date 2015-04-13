@@ -1,7 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/mysql-connector-c"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/mysql-connector-c"
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/mysql-connector-c/Sources"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/mysql-connector-c"
-OTHER_LDFLAGS = -ObjC -l"Pods-mysql-connector-c" -l"c++" -l"mysqlclient"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-mysql-connector-c" -l"c++" -l"mysqlclient"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods
