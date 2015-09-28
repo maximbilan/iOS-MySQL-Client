@@ -7,526 +7,324 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00063FBE0BC26CE810841A45 /* my_pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 202B39B53883824C45CC621C /* my_pthread.h */; };
-		00EB0CD07D7C9CA32EFB52D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32807D4D11B870C1BB070F15 /* Foundation.framework */; };
-		0DCE2F610C68D8FBE9986136 /* my_time.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9166038BA6BE736823C812 /* my_time.h */; };
-		11B61F12D3965E6396DCBBF3 /* mysql_time.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8415EDC711023B83EA48F0 /* mysql_time.h */; };
-		1E5754EFB67072E5B0FF70A6 /* service_versions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A8B955F59D10C34693D810 /* service_versions.h */; };
-		20EAAC52A2DB3275460A03DF /* my_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 781C616477CB34B289CEDC33 /* my_base.h */; };
-		232D75B6C15BAAA32D28F3FA /* violite.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B579FFD37C3DB4ACA0E6F1 /* violite.h */; };
-		28ECC1AB8C4C7663AFCAC240 /* sslopt-vars.h in Headers */ = {isa = PBXBuildFile; fileRef = 9084670C745BA436268B62C7 /* sslopt-vars.h */; };
-		3179CB99824180BA94E60245 /* my_dbug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D43587CDF34F04AD3C89651 /* my_dbug.h */; };
-		326F2E19C615E23C91EE187D /* rijndael.h in Headers */ = {isa = PBXBuildFile; fileRef = 6138740D8601F40916666186 /* rijndael.h */; };
-		32CBF71D5296BDB81E583232 /* my_bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 860EE88D3B4173BD9AE83A2F /* my_bit.h */; };
-		34BFC0D04DB806D6C06AC6DA /* Pods-mysql-connector-c-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE6F6D9CC13DA339DB031D /* Pods-mysql-connector-c-dummy.m */; };
-		357AAA951A9B031CD21220C8 /* mysys_err.h in Headers */ = {isa = PBXBuildFile; fileRef = 480C8341AF02C12FC2D5B76B /* mysys_err.h */; };
-		36268FD70C8FFB823B7E5912 /* my_stacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 50014CD8BF775596FF85B571 /* my_stacktrace.h */; };
-		3A2D96292FCB5FD94BA9EBBB /* my_nosys.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BF83678E71C87E9E4A397E /* my_nosys.h */; };
-		3CAFA0F26A60AD3BA40A1571 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAE5594C38B4E716578AB88 /* sha1.h */; };
-		3D5D070E36D33313E6DD2B6E /* t_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FCCEF0E20497900926D73D /* t_ctype.h */; };
-		3F2E87DC39E8627DCDC19B6B /* my_uctype.h in Headers */ = {isa = PBXBuildFile; fileRef = B74635E8F18005492B552827 /* my_uctype.h */; };
-		4225110CF344D70DAE4500F2 /* keycache.h in Headers */ = {isa = PBXBuildFile; fileRef = 223045CE29D131B63FDD7202 /* keycache.h */; };
-		48683E1190B174D6DC3B6DB4 /* my_libwrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 481B941D33254E55A78BA2ED /* my_libwrap.h */; };
-		4916852BBD87C3D7831775D0 /* mysql_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 788D702508AB0BE909E948B2 /* mysql_version.h */; };
-		4A0E81E251F6C4EB81F4CE86 /* sql_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D5D35221D36450B49CF5BB /* sql_common.h */; };
-		4D99824CB2091DCC40B9CE9C /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C263EF6581D9FA20D99AB1 /* sha2.h */; };
-		51E75EF00E2AEA26AFAF8291 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F604F3E9DDD0931162C2163 /* hash.h */; };
-		553B1518ED7F12D67725240C /* my_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 7428C75656B33B23C14C7CE4 /* my_list.h */; };
-		55F69DB2353263CE3F0AF144 /* my_global.h in Headers */ = {isa = PBXBuildFile; fileRef = 7455651F41F0AD2A9B0135D9 /* my_global.h */; };
-		5C4E8B0D61B8CB6FDD064F35 /* my_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F3837AC94D5DCAF5FD846 /* my_xml.h */; };
-		5F090A27F07B45A5A3336ECC /* my_no_pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8050D0795900AE36BBFF2E /* my_no_pthread.h */; };
-		647C6E069ACB4501685D9606 /* thr_alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 516358E017C5C1B4CAD22BD2 /* thr_alarm.h */; };
-		6AC443FBC3D4050FFA1BC4D2 /* my_atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = A9769CAD4A5BBD4422B10462 /* my_atomic.h */; };
-		6DEFAEE0023E08887384FCA0 /* generic-msvc.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F86F3FF8365AD41AAE2A96 /* generic-msvc.h */; };
-		6E6A4F6D613F3C7703F3F9F5 /* my_charsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEF5D5C0484E6B6C283DA2C /* my_charsets.h */; };
-		6FB01E4CD7F47BFB1B13FEFF /* my_bitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 225E4415217070495BFE0876 /* my_bitmap.h */; };
-		7429A8E5728C947B6CDBAC35 /* my_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8955E6138A30EF6523E78D /* my_tree.h */; };
-		74B59ED912C39E79AEDB9ED0 /* decimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9269789D71A4E1D9EEAE8AAC /* decimal.h */; };
-		7AFFD646BFA064CA1889BBC6 /* m_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F11304B0822D662660DD5A /* m_ctype.h */; };
-		7DEAEC5773F9E25FAF7297D1 /* my_md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F1380679CAB636141E1830 /* my_md5.h */; };
-		813DF47150598B1204001713 /* my_attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F2724B1C62D48AA2D1AF5B /* my_attribute.h */; };
-		86FE1FDD2295632B87DFC280 /* my_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C98473856428F5E5D7E4C2AB /* my_config.h */; };
-		8A4A3B344D182FAAF677F134 /* sslopt-longopts.h in Headers */ = {isa = PBXBuildFile; fileRef = 36274D6B37A4C6A6F4293C5D /* sslopt-longopts.h */; };
-		8F24B67F513871070BD7B064 /* nolock.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA45C6F2A153127C7021F8C /* nolock.h */; };
-		90A56EA9A461DEF22BEA649A /* my_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EB64C52509A6F0E288C387 /* my_sys.h */; };
-		96EEAFBEE84847071A5E0300 /* thr_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = C492FD224598D55D824347DD /* thr_lock.h */; };
-		983FFFDFFFA29CE75DFEAADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32807D4D11B870C1BB070F15 /* Foundation.framework */; };
-		9AC00145CE02A8D3896BC4FF /* wqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B28587930D5D56EDFAF55E8 /* wqueue.h */; };
-		9B803798C4554BB340B5E46E /* my_getopt.h in Headers */ = {isa = PBXBuildFile; fileRef = A02B209E48040B215C2F3BBB /* my_getopt.h */; };
-		9C064F1FAA4B0C5500E57456 /* my_alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E40B6D6109CA6512480258 /* my_alarm.h */; };
-		9C228F91973FF292E84ED090 /* m_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 0750802BE533A6A0E13EA74F /* m_string.h */; };
-		9CCD785FFA8DD43BAFAF8327 /* my_vle.h in Headers */ = {isa = PBXBuildFile; fileRef = 970D867CFA2A1F85AE922D77 /* my_vle.h */; };
-		AA559AF652028821F8EB2813 /* mysql_com.h in Headers */ = {isa = PBXBuildFile; fileRef = 685985E0189FAC09CD18129F /* mysql_com.h */; };
-		B0207A796874FED4C726DE8D /* my_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A3CF8FF7145169F51A18FB /* my_alloc.h */; };
-		B11F7F1E996F2E1C7888BAB6 /* x86-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE7C7057B08F1FB9A7CC5E /* x86-gcc.h */; };
-		B3A8069158D28D96092EAFB0 /* queues.h in Headers */ = {isa = PBXBuildFile; fileRef = F2AD84214C274ACE6E5BDEDA /* queues.h */; };
-		BADA05D5E6291C5F03844DF8 /* my_dir.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7D1B6E6101AF2E65496F40 /* my_dir.h */; };
-		C42328E936AEB0B50CC7B1DE /* lf.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9B5249AF24A793B133F0E /* lf.h */; };
-		C99A2A021FE15945D3B87B15 /* rwlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FE1A440660140B361AA5C0 /* rwlock.h */; };
-		CB4694093F5FAB702CF73BF8 /* typelib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD76D58AC303FE48223382C /* typelib.h */; };
-		CE85FE2703E7659D78B68FC9 /* mysql.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DBE9C51AB4D334E696EBAF /* mysql.h */; };
-		D39FAD949553252FD39E8D6C /* sslopt-case.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB7C99BA9AD92740B737AB /* sslopt-case.h */; };
-		D8941CBC9CAFA4C0FB1DFBCC /* mysqld_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD45D86995CF203FD566A6A /* mysqld_error.h */; };
-		DDA015DD4EE73A9D515B86DA /* gcc_builtins.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF8892979C8EFD2DC1CEC01 /* gcc_builtins.h */; };
-		E0293560CD35BC11414A94E5 /* errmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3E292F28E0B44A0090635 /* errmsg.h */; };
-		E27FC3951DC05D74628177CD /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE497496CA14D76AA6051D9 /* Pods-dummy.m */; };
-		E61CE30B5AAA02357D44FAC2 /* my_aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CAB53960D81724A305261F /* my_aes.h */; };
-		E689F4C533AA62209D0C335F /* waiting_threads.h in Headers */ = {isa = PBXBuildFile; fileRef = 4756148720D194E0E5A40081 /* waiting_threads.h */; };
-		E74920411C00C00BBD91D5D8 /* myisampack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDD8ADCA391EFBB649C6E7C /* myisampack.h */; };
-		EBD9E2C79421C0E33367D47C /* my_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6717E626DFA3FFC475CD57 /* my_net.h */; };
-		EC7EDDF38CB825001847F942 /* my_trie.h in Headers */ = {isa = PBXBuildFile; fileRef = BA05E400ADBA9DB8EE9EC33C /* my_trie.h */; };
-		FD8DDB48C349C57C7A0F304E /* config-win.h in Headers */ = {isa = PBXBuildFile; fileRef = F57886AF7A13FEC980B38E42 /* config-win.h */; };
-		FE78BAE89C57FD37FCB3FEF5 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 8332B76C0124EEAAF0BD85CF /* base64.h */; };
+		19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BFA5C4C09F6C2F15057EB190 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98028ACE2C82855024AE219E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFF08AF7358848DADAEDBE1C;
-			remoteInfo = "Pods-mysql-connector-c";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		033C818457F748F7F0CD8139 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		0750802BE533A6A0E13EA74F /* m_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_string.h; path = Sources/include/m_string.h; sourceTree = "<group>"; };
-		093C8B9DD294AE07AB0159B7 /* libmysqlclient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = Sources/libmysqlclient.a; sourceTree = "<group>"; };
-		11E40B6D6109CA6512480258 /* my_alarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alarm.h; path = Sources/include/my_alarm.h; sourceTree = "<group>"; };
-		12FCCEF0E20497900926D73D /* t_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = t_ctype.h; path = Sources/include/t_ctype.h; sourceTree = "<group>"; };
-		14C263EF6581D9FA20D99AB1 /* sha2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha2.h; path = Sources/include/sha2.h; sourceTree = "<group>"; };
-		18093ACC4D9E28F68D5B6776 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		188CA04CD245B89742EAB0D2 /* Pods-mysql-connector-c-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mysql-connector-c-prefix.pch"; sourceTree = "<group>"; };
-		1D1E6CD10FAA3A82124C3C49 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E7D1B6E6101AF2E65496F40 /* my_dir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dir.h; path = Sources/include/my_dir.h; sourceTree = "<group>"; };
-		1FAE5594C38B4E716578AB88 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = Sources/include/sha1.h; sourceTree = "<group>"; };
-		202B39B53883824C45CC621C /* my_pthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_pthread.h; path = Sources/include/my_pthread.h; sourceTree = "<group>"; };
-		223045CE29D131B63FDD7202 /* keycache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keycache.h; path = Sources/include/keycache.h; sourceTree = "<group>"; };
-		225E4415217070495BFE0876 /* my_bitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bitmap.h; path = Sources/include/my_bitmap.h; sourceTree = "<group>"; };
-		27A8B955F59D10C34693D810 /* service_versions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_versions.h; path = Sources/include/service_versions.h; sourceTree = "<group>"; };
-		27D5D35221D36450B49CF5BB /* sql_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sql_common.h; path = Sources/include/sql_common.h; sourceTree = "<group>"; };
-		28CAB53960D81724A305261F /* my_aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_aes.h; path = Sources/include/my_aes.h; sourceTree = "<group>"; };
-		32807D4D11B870C1BB070F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36274D6B37A4C6A6F4293C5D /* sslopt-longopts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-longopts.h"; path = "Sources/include/sslopt-longopts.h"; sourceTree = "<group>"; };
-		3B28587930D5D56EDFAF55E8 /* wqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wqueue.h; path = Sources/include/wqueue.h; sourceTree = "<group>"; };
-		41F11304B0822D662660DD5A /* m_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_ctype.h; path = Sources/include/m_ctype.h; sourceTree = "<group>"; };
-		4756148720D194E0E5A40081 /* waiting_threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = waiting_threads.h; path = Sources/include/waiting_threads.h; sourceTree = "<group>"; };
-		480C8341AF02C12FC2D5B76B /* mysys_err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysys_err.h; path = Sources/include/mysys_err.h; sourceTree = "<group>"; };
-		481B941D33254E55A78BA2ED /* my_libwrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_libwrap.h; path = Sources/include/my_libwrap.h; sourceTree = "<group>"; };
-		50014CD8BF775596FF85B571 /* my_stacktrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_stacktrace.h; path = Sources/include/my_stacktrace.h; sourceTree = "<group>"; };
-		516358E017C5C1B4CAD22BD2 /* thr_alarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_alarm.h; path = Sources/include/thr_alarm.h; sourceTree = "<group>"; };
-		5BF8892979C8EFD2DC1CEC01 /* gcc_builtins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gcc_builtins.h; path = Sources/include/atomic/gcc_builtins.h; sourceTree = "<group>"; };
-		6138740D8601F40916666186 /* rijndael.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rijndael.h; path = Sources/include/mysys/rijndael.h; sourceTree = "<group>"; };
-		62A3CF8FF7145169F51A18FB /* my_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alloc.h; path = Sources/include/my_alloc.h; sourceTree = "<group>"; };
-		64F2724B1C62D48AA2D1AF5B /* my_attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_attribute.h; path = Sources/include/my_attribute.h; sourceTree = "<group>"; };
-		67BF83678E71C87E9E4A397E /* my_nosys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_nosys.h; path = Sources/include/my_nosys.h; sourceTree = "<group>"; };
-		67FE1A440660140B361AA5C0 /* rwlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rwlock.h; path = Sources/include/atomic/rwlock.h; sourceTree = "<group>"; };
-		685985E0189FAC09CD18129F /* mysql_com.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_com.h; path = Sources/include/mysql_com.h; sourceTree = "<group>"; };
-		6D43587CDF34F04AD3C89651 /* my_dbug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dbug.h; path = Sources/include/my_dbug.h; sourceTree = "<group>"; };
-		6EE497496CA14D76AA6051D9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		6FDD8ADCA391EFBB649C6E7C /* myisampack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = myisampack.h; path = Sources/include/myisampack.h; sourceTree = "<group>"; };
-		70EE6F6D9CC13DA339DB031D /* Pods-mysql-connector-c-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mysql-connector-c-dummy.m"; sourceTree = "<group>"; };
-		7428C75656B33B23C14C7CE4 /* my_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_list.h; path = Sources/include/my_list.h; sourceTree = "<group>"; };
-		7455651F41F0AD2A9B0135D9 /* my_global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_global.h; path = Sources/include/my_global.h; sourceTree = "<group>"; };
-		74B579FFD37C3DB4ACA0E6F1 /* violite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = violite.h; path = Sources/include/violite.h; sourceTree = "<group>"; };
-		781C616477CB34B289CEDC33 /* my_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_base.h; path = Sources/include/my_base.h; sourceTree = "<group>"; };
-		788D702508AB0BE909E948B2 /* mysql_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_version.h; path = Sources/include/mysql_version.h; sourceTree = "<group>"; };
-		7A6717E626DFA3FFC475CD57 /* my_net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_net.h; path = Sources/include/my_net.h; sourceTree = "<group>"; };
-		7F604F3E9DDD0931162C2163 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Sources/include/hash.h; sourceTree = "<group>"; };
-		8332B76C0124EEAAF0BD85CF /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = Sources/include/base64.h; sourceTree = "<group>"; };
-		860EE88D3B4173BD9AE83A2F /* my_bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bit.h; path = Sources/include/my_bit.h; sourceTree = "<group>"; };
-		86F1380679CAB636141E1830 /* my_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_md5.h; path = Sources/include/my_md5.h; sourceTree = "<group>"; };
-		8AD76D58AC303FE48223382C /* typelib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = typelib.h; path = Sources/include/typelib.h; sourceTree = "<group>"; };
-		9084670C745BA436268B62C7 /* sslopt-vars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-vars.h"; path = "Sources/include/sslopt-vars.h"; sourceTree = "<group>"; };
-		9269789D71A4E1D9EEAE8AAC /* decimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimal.h; path = Sources/include/decimal.h; sourceTree = "<group>"; };
-		93EE42E6753F05B0B138AC4B /* libPods-mysql-connector-c.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mysql-connector-c.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		970D867CFA2A1F85AE922D77 /* my_vle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_vle.h; path = Sources/include/my_vle.h; sourceTree = "<group>"; };
-		9A19D4510191CC57811C2171 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD45D86995CF203FD566A6A /* mysqld_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysqld_error.h; path = Sources/include/mysqld_error.h; sourceTree = "<group>"; };
-		9BEF5D5C0484E6B6C283DA2C /* my_charsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_charsets.h; path = Sources/include/my_charsets.h; sourceTree = "<group>"; };
-		9D8050D0795900AE36BBFF2E /* my_no_pthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_no_pthread.h; path = Sources/include/my_no_pthread.h; sourceTree = "<group>"; };
-		A02B209E48040B215C2F3BBB /* my_getopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_getopt.h; path = Sources/include/my_getopt.h; sourceTree = "<group>"; };
-		A9769CAD4A5BBD4422B10462 /* my_atomic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_atomic.h; path = Sources/include/my_atomic.h; sourceTree = "<group>"; };
-		B3F86F3FF8365AD41AAE2A96 /* generic-msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "generic-msvc.h"; path = "Sources/include/atomic/generic-msvc.h"; sourceTree = "<group>"; };
-		B71BDB05B677B6FA9961D029 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		B74635E8F18005492B552827 /* my_uctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_uctype.h; path = Sources/include/my_uctype.h; sourceTree = "<group>"; };
-		B9C3E292F28E0B44A0090635 /* errmsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errmsg.h; path = Sources/include/errmsg.h; sourceTree = "<group>"; };
-		B9DBE9C51AB4D334E696EBAF /* mysql.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql.h; path = Sources/include/mysql.h; sourceTree = "<group>"; };
-		BA05E400ADBA9DB8EE9EC33C /* my_trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_trie.h; path = Sources/include/my_trie.h; sourceTree = "<group>"; };
-		BC9166038BA6BE736823C812 /* my_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_time.h; path = Sources/include/my_time.h; sourceTree = "<group>"; };
-		BDA45C6F2A153127C7021F8C /* nolock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nolock.h; path = Sources/include/atomic/nolock.h; sourceTree = "<group>"; };
-		C492FD224598D55D824347DD /* thr_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_lock.h; path = Sources/include/thr_lock.h; sourceTree = "<group>"; };
-		C4EB64C52509A6F0E288C387 /* my_sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_sys.h; path = Sources/include/my_sys.h; sourceTree = "<group>"; };
-		C98473856428F5E5D7E4C2AB /* my_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_config.h; path = Sources/include/my_config.h; sourceTree = "<group>"; };
-		CC8955E6138A30EF6523E78D /* my_tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_tree.h; path = Sources/include/my_tree.h; sourceTree = "<group>"; };
-		D1BB7C99BA9AD92740B737AB /* sslopt-case.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-case.h"; path = "Sources/include/sslopt-case.h"; sourceTree = "<group>"; };
-		D4EE7C7057B08F1FB9A7CC5E /* x86-gcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "x86-gcc.h"; path = "Sources/include/atomic/x86-gcc.h"; sourceTree = "<group>"; };
-		D5459015C013766535114E57 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		DAA9B5249AF24A793B133F0E /* lf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lf.h; path = Sources/include/lf.h; sourceTree = "<group>"; };
-		DC8415EDC711023B83EA48F0 /* mysql_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_time.h; path = Sources/include/mysql_time.h; sourceTree = "<group>"; };
-		E046B94624076299155F1913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23828E1484BBAD93F6A8813 /* Pods-mysql-connector-c.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mysql-connector-c.xcconfig"; sourceTree = "<group>"; };
-		F0A5331F31842A501359CF71 /* Pods-mysql-connector-c-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mysql-connector-c-Private.xcconfig"; sourceTree = "<group>"; };
-		F2AD84214C274ACE6E5BDEDA /* queues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queues.h; path = Sources/include/queues.h; sourceTree = "<group>"; };
-		F56F3837AC94D5DCAF5FD846 /* my_xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_xml.h; path = Sources/include/my_xml.h; sourceTree = "<group>"; };
-		F57886AF7A13FEC980B38E42 /* config-win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "config-win.h"; path = "Sources/include/config-win.h"; sourceTree = "<group>"; };
-		FB16A11780581B79969D7068 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		064BC78D9CE42F6218BCC0B5310C041E /* thr_alarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_alarm.h; path = Sources/include/thr_alarm.h; sourceTree = "<group>"; };
+		082556A99DDE8A905C9120F570383A84 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = Sources/include/base64.h; sourceTree = "<group>"; };
+		088D2743E5B305499787CE4A51F39655 /* mysql.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql.h; path = Sources/include/mysql.h; sourceTree = "<group>"; };
+		14487D6F69FE54D6C9028360C62F9309 /* libmysqlclient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = Sources/libmysqlclient.a; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA9AF473F3DD552C8580D0FE729A19F /* sha2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha2.h; path = Sources/include/sha2.h; sourceTree = "<group>"; };
+		26552AFC608112159652AAF495EBB8C2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		266E12FF9EEA3902AA450FB73847481C /* my_bitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bitmap.h; path = Sources/include/my_bitmap.h; sourceTree = "<group>"; };
+		2FECAA451091313A7354296BC5425A41 /* t_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = t_ctype.h; path = Sources/include/t_ctype.h; sourceTree = "<group>"; };
+		3B625AC11056EAEB6B72A3FEC05DA1E8 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = Sources/include/sha1.h; sourceTree = "<group>"; };
+		3CD397286A040BCFA1E379E8ABA2150E /* my_bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bit.h; path = Sources/include/my_bit.h; sourceTree = "<group>"; };
+		3D057E827B9986E9C92348235A508E41 /* thr_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_lock.h; path = Sources/include/thr_lock.h; sourceTree = "<group>"; };
+		45BDFC64CA0D7894519DA531157B2032 /* my_getopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_getopt.h; path = Sources/include/my_getopt.h; sourceTree = "<group>"; };
+		472AC69FA554250164217E06022B19A6 /* generic-msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "generic-msvc.h"; path = "Sources/include/atomic/generic-msvc.h"; sourceTree = "<group>"; };
+		4A02A71B5F97C176E59B40AF91EA7866 /* violite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = violite.h; path = Sources/include/violite.h; sourceTree = "<group>"; };
+		4B282103386B2AFA3ABC9454D481EAAC /* my_atomic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_atomic.h; path = Sources/include/my_atomic.h; sourceTree = "<group>"; };
+		4E39035D0245DD686A0D67DC2CFC51DC /* my_trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_trie.h; path = Sources/include/my_trie.h; sourceTree = "<group>"; };
+		4FC5CE18B6C36229A554CE0B84700B03 /* my_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_list.h; path = Sources/include/my_list.h; sourceTree = "<group>"; };
+		50E84ADB984C25FB5B4214F9A0C90292 /* sslopt-vars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-vars.h"; path = "Sources/include/sslopt-vars.h"; sourceTree = "<group>"; };
+		5569F4653BDCD342766E85812CF9BD30 /* mysql_com.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_com.h; path = Sources/include/mysql_com.h; sourceTree = "<group>"; };
+		566A152E18C3808D60B4C661EBC21B7B /* errmsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errmsg.h; path = Sources/include/errmsg.h; sourceTree = "<group>"; };
+		5BEBA0CD3D2402826505C0BB841030D3 /* my_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_config.h; path = Sources/include/my_config.h; sourceTree = "<group>"; };
+		5CDCB8882DC930C1E26A5686F564AE6F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6C8179E4C5336D09DE02524C82FEB799 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Sources/include/hash.h; sourceTree = "<group>"; };
+		724406F7F2444994435EC847535D3E16 /* mysqld_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysqld_error.h; path = Sources/include/mysqld_error.h; sourceTree = "<group>"; };
+		72E2C09F802705B189F9B3DA2FC05702 /* my_net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_net.h; path = Sources/include/my_net.h; sourceTree = "<group>"; };
+		75F63B048BB4031EBA3E6BF84FD724E2 /* my_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alloc.h; path = Sources/include/my_alloc.h; sourceTree = "<group>"; };
+		76A6E724EBEB0D4EBBA8B6C80CCA95A8 /* lf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lf.h; path = Sources/include/lf.h; sourceTree = "<group>"; };
+		795627EB75EA7A1F9AC2A95E10AEB6D2 /* my_charsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_charsets.h; path = Sources/include/my_charsets.h; sourceTree = "<group>"; };
+		7B96BD11376348E98C4ECD2471B3BD0F /* my_stacktrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_stacktrace.h; path = Sources/include/my_stacktrace.h; sourceTree = "<group>"; };
+		7C337C38B798B021FBEC0BB83F683843 /* x86-gcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "x86-gcc.h"; path = "Sources/include/atomic/x86-gcc.h"; sourceTree = "<group>"; };
+		7DB39711DEAA8593254078F178B6FEA5 /* my_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_time.h; path = Sources/include/my_time.h; sourceTree = "<group>"; };
+		7EEF21452B3F515F9720899E0C73D593 /* my_tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_tree.h; path = Sources/include/my_tree.h; sourceTree = "<group>"; };
+		8174C869C2262FC9EACAC5E45D5F4DE6 /* my_dbug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dbug.h; path = Sources/include/my_dbug.h; sourceTree = "<group>"; };
+		83A77B8B683FF6716D6956C7BCC22D53 /* mysys_err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysys_err.h; path = Sources/include/mysys_err.h; sourceTree = "<group>"; };
+		859F0EC569FC1DFFA768CA34DFDEC09F /* my_sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_sys.h; path = Sources/include/my_sys.h; sourceTree = "<group>"; };
+		8C6646755C97F0CD32412480AD7A4BD4 /* myisampack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = myisampack.h; path = Sources/include/myisampack.h; sourceTree = "<group>"; };
+		8D25DD30ED60576B248705BED650DF18 /* my_aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_aes.h; path = Sources/include/my_aes.h; sourceTree = "<group>"; };
+		8D5E92E66DCB4C115034FCDBDCB7F513 /* my_libwrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_libwrap.h; path = Sources/include/my_libwrap.h; sourceTree = "<group>"; };
+		8EA496FC1DE9DFFF5E6F8E0A66FCDF50 /* my_uctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_uctype.h; path = Sources/include/my_uctype.h; sourceTree = "<group>"; };
+		8EE7866CCE6B8A0A253D8E65962884CD /* my_pthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_pthread.h; path = Sources/include/my_pthread.h; sourceTree = "<group>"; };
+		911FE49B5BF8286118431860709B87A6 /* sql_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sql_common.h; path = Sources/include/sql_common.h; sourceTree = "<group>"; };
+		9B41CAB032403AAB39E1FBB7A3654B85 /* my_attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_attribute.h; path = Sources/include/my_attribute.h; sourceTree = "<group>"; };
+		A30564D67143C57C20AA55CC3EFD60AB /* keycache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keycache.h; path = Sources/include/keycache.h; sourceTree = "<group>"; };
+		A65C9AE1217EC5DFE575C79CC71231A2 /* queues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queues.h; path = Sources/include/queues.h; sourceTree = "<group>"; };
+		A76CBDB9FB0E5FC8CF887921658DBE05 /* my_vle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_vle.h; path = Sources/include/my_vle.h; sourceTree = "<group>"; };
+		A87556EA4898B5566B0DA485B4B9D3E6 /* mysql_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_version.h; path = Sources/include/mysql_version.h; sourceTree = "<group>"; };
+		AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F4945A9EC27C67352C30C876EED7D4 /* typelib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = typelib.h; path = Sources/include/typelib.h; sourceTree = "<group>"; };
+		B267440A092EFA4DE8D3EF557341D293 /* rijndael.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rijndael.h; path = Sources/include/mysys/rijndael.h; sourceTree = "<group>"; };
+		B4243575D5C07D257B59C7F5A5E69E93 /* nolock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nolock.h; path = Sources/include/atomic/nolock.h; sourceTree = "<group>"; };
+		B6DE788CC8FF4CF7A5F07513A18A5475 /* my_dir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dir.h; path = Sources/include/my_dir.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C00A66895BDA55497943B4AEBF7FAB72 /* m_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_ctype.h; path = Sources/include/m_ctype.h; sourceTree = "<group>"; };
+		C0731EB295DF9263D15C65EF26DDF1BA /* my_alarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alarm.h; path = Sources/include/my_alarm.h; sourceTree = "<group>"; };
+		CF18F513A6BFE5E7A0EE744F3342AB40 /* decimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimal.h; path = Sources/include/decimal.h; sourceTree = "<group>"; };
+		D1F08391C5849EE0E346076DBCD23C5C /* my_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_md5.h; path = Sources/include/my_md5.h; sourceTree = "<group>"; };
+		D4C4A97A72C550F355B231641900D74D /* m_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_string.h; path = Sources/include/m_string.h; sourceTree = "<group>"; };
+		D5482D56144C59E02B4E477978D7CBC9 /* mysql_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_time.h; path = Sources/include/mysql_time.h; sourceTree = "<group>"; };
+		D55D1E2C96A6A0A3F834FC31A9047638 /* gcc_builtins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gcc_builtins.h; path = Sources/include/atomic/gcc_builtins.h; sourceTree = "<group>"; };
+		D6175F5460210BDE3D1E0EF50DD3D889 /* sslopt-case.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-case.h"; path = "Sources/include/sslopt-case.h"; sourceTree = "<group>"; };
+		DABA26999AC3047F9A7467D110215FFE /* my_xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_xml.h; path = Sources/include/my_xml.h; sourceTree = "<group>"; };
+		DB28E37BEE8579599E8045ED653E7127 /* my_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_base.h; path = Sources/include/my_base.h; sourceTree = "<group>"; };
+		DB2F2550C50A079FB24D042E5BD9EBA9 /* my_no_pthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_no_pthread.h; path = Sources/include/my_no_pthread.h; sourceTree = "<group>"; };
+		DD1C2ED381F20922916DFB89F927AB43 /* service_versions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_versions.h; path = Sources/include/service_versions.h; sourceTree = "<group>"; };
+		DE81037CA3F5C0B290C9DA65BA8585E5 /* wqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wqueue.h; path = Sources/include/wqueue.h; sourceTree = "<group>"; };
+		E61CE14E9CE1C87DA7BD0E076384DBE2 /* my_global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_global.h; path = Sources/include/my_global.h; sourceTree = "<group>"; };
+		EC596A3DF18F9B9D7E4EA6312D1A2195 /* my_nosys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_nosys.h; path = Sources/include/my_nosys.h; sourceTree = "<group>"; };
+		EC767D4891A67A90B1BDA4AADCD56DE0 /* waiting_threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = waiting_threads.h; path = Sources/include/waiting_threads.h; sourceTree = "<group>"; };
+		F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F57C5F0CAAE5EC7D00074F61451E4ED0 /* rwlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rwlock.h; path = Sources/include/atomic/rwlock.h; sourceTree = "<group>"; };
+		F670C90032D9C91F5BF413F7C5DB14DF /* sslopt-longopts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-longopts.h"; path = "Sources/include/sslopt-longopts.h"; sourceTree = "<group>"; };
+		FEEBAAA8750A48B839B3A6A5F55FB361 /* config-win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "config-win.h"; path = "Sources/include/config-win.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B713609FCDE866D03462A6A /* Frameworks */ = {
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EB0CD07D7C9CA32EFB52D9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31B86AAAF0303BC5D0370EF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				983FFFDFFFA29CE75DFEAADC /* Foundation.framework in Frameworks */,
+				19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C91AC65A9CDE985567E91E = {
+		40E54FE294C47B1CCE2F015604C9F174 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A19D4510191CC57811C2171 /* Podfile */,
-				CAE4ED7BBD021C7CA99EA368 /* Frameworks */,
-				13CA18F8C2790DB48E3AC1AB /* Pods */,
-				BDAB1BD31E96FFF40D14D6E6 /* Products */,
-				D26AAD46A66E5B7AF3EECA4B /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		0ED195BB775B74F0803A5848 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E23828E1484BBAD93F6A8813 /* Pods-mysql-connector-c.xcconfig */,
-				F0A5331F31842A501359CF71 /* Pods-mysql-connector-c-Private.xcconfig */,
-				70EE6F6D9CC13DA339DB031D /* Pods-mysql-connector-c-dummy.m */,
-				188CA04CD245B89742EAB0D2 /* Pods-mysql-connector-c-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-mysql-connector-c";
-			sourceTree = "<group>";
-		};
-		13CA18F8C2790DB48E3AC1AB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D9B1B400C72091B10332CAD /* mysql-connector-c */,
+				7B6B981BBB299F954A76F769B0A88FFE /* mysql-connector-c */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1A88BE6D2BD915BB16ABA7AA /* iOS */ = {
+		40F8F03BF85F7246B471F92D4ED21460 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32807D4D11B870C1BB070F15 /* Foundation.framework */,
+				14487D6F69FE54D6C9028360C62F9309 /* libmysqlclient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		23FDEE99FAFE673B0E34DB20 /* Frameworks */ = {
+		7B6B981BBB299F954A76F769B0A88FFE /* mysql-connector-c */ = {
 			isa = PBXGroup;
 			children = (
-				093C8B9DD294AE07AB0159B7 /* libmysqlclient.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3D9B1B400C72091B10332CAD /* mysql-connector-c */ = {
-			isa = PBXGroup;
-			children = (
-				8332B76C0124EEAAF0BD85CF /* base64.h */,
-				F57886AF7A13FEC980B38E42 /* config-win.h */,
-				9269789D71A4E1D9EEAE8AAC /* decimal.h */,
-				B9C3E292F28E0B44A0090635 /* errmsg.h */,
-				5BF8892979C8EFD2DC1CEC01 /* gcc_builtins.h */,
-				B3F86F3FF8365AD41AAE2A96 /* generic-msvc.h */,
-				7F604F3E9DDD0931162C2163 /* hash.h */,
-				223045CE29D131B63FDD7202 /* keycache.h */,
-				DAA9B5249AF24A793B133F0E /* lf.h */,
-				41F11304B0822D662660DD5A /* m_ctype.h */,
-				0750802BE533A6A0E13EA74F /* m_string.h */,
-				28CAB53960D81724A305261F /* my_aes.h */,
-				11E40B6D6109CA6512480258 /* my_alarm.h */,
-				62A3CF8FF7145169F51A18FB /* my_alloc.h */,
-				A9769CAD4A5BBD4422B10462 /* my_atomic.h */,
-				64F2724B1C62D48AA2D1AF5B /* my_attribute.h */,
-				781C616477CB34B289CEDC33 /* my_base.h */,
-				860EE88D3B4173BD9AE83A2F /* my_bit.h */,
-				225E4415217070495BFE0876 /* my_bitmap.h */,
-				9BEF5D5C0484E6B6C283DA2C /* my_charsets.h */,
-				C98473856428F5E5D7E4C2AB /* my_config.h */,
-				6D43587CDF34F04AD3C89651 /* my_dbug.h */,
-				1E7D1B6E6101AF2E65496F40 /* my_dir.h */,
-				A02B209E48040B215C2F3BBB /* my_getopt.h */,
-				7455651F41F0AD2A9B0135D9 /* my_global.h */,
-				481B941D33254E55A78BA2ED /* my_libwrap.h */,
-				7428C75656B33B23C14C7CE4 /* my_list.h */,
-				86F1380679CAB636141E1830 /* my_md5.h */,
-				7A6717E626DFA3FFC475CD57 /* my_net.h */,
-				9D8050D0795900AE36BBFF2E /* my_no_pthread.h */,
-				67BF83678E71C87E9E4A397E /* my_nosys.h */,
-				202B39B53883824C45CC621C /* my_pthread.h */,
-				50014CD8BF775596FF85B571 /* my_stacktrace.h */,
-				C4EB64C52509A6F0E288C387 /* my_sys.h */,
-				BC9166038BA6BE736823C812 /* my_time.h */,
-				CC8955E6138A30EF6523E78D /* my_tree.h */,
-				BA05E400ADBA9DB8EE9EC33C /* my_trie.h */,
-				B74635E8F18005492B552827 /* my_uctype.h */,
-				970D867CFA2A1F85AE922D77 /* my_vle.h */,
-				F56F3837AC94D5DCAF5FD846 /* my_xml.h */,
-				6FDD8ADCA391EFBB649C6E7C /* myisampack.h */,
-				B9DBE9C51AB4D334E696EBAF /* mysql.h */,
-				685985E0189FAC09CD18129F /* mysql_com.h */,
-				DC8415EDC711023B83EA48F0 /* mysql_time.h */,
-				788D702508AB0BE909E948B2 /* mysql_version.h */,
-				9BD45D86995CF203FD566A6A /* mysqld_error.h */,
-				480C8341AF02C12FC2D5B76B /* mysys_err.h */,
-				BDA45C6F2A153127C7021F8C /* nolock.h */,
-				F2AD84214C274ACE6E5BDEDA /* queues.h */,
-				6138740D8601F40916666186 /* rijndael.h */,
-				67FE1A440660140B361AA5C0 /* rwlock.h */,
-				27A8B955F59D10C34693D810 /* service_versions.h */,
-				1FAE5594C38B4E716578AB88 /* sha1.h */,
-				14C263EF6581D9FA20D99AB1 /* sha2.h */,
-				27D5D35221D36450B49CF5BB /* sql_common.h */,
-				D1BB7C99BA9AD92740B737AB /* sslopt-case.h */,
-				36274D6B37A4C6A6F4293C5D /* sslopt-longopts.h */,
-				9084670C745BA436268B62C7 /* sslopt-vars.h */,
-				12FCCEF0E20497900926D73D /* t_ctype.h */,
-				516358E017C5C1B4CAD22BD2 /* thr_alarm.h */,
-				C492FD224598D55D824347DD /* thr_lock.h */,
-				8AD76D58AC303FE48223382C /* typelib.h */,
-				74B579FFD37C3DB4ACA0E6F1 /* violite.h */,
-				4756148720D194E0E5A40081 /* waiting_threads.h */,
-				3B28587930D5D56EDFAF55E8 /* wqueue.h */,
-				D4EE7C7057B08F1FB9A7CC5E /* x86-gcc.h */,
-				23FDEE99FAFE673B0E34DB20 /* Frameworks */,
-				0ED195BB775B74F0803A5848 /* Support Files */,
+				082556A99DDE8A905C9120F570383A84 /* base64.h */,
+				FEEBAAA8750A48B839B3A6A5F55FB361 /* config-win.h */,
+				CF18F513A6BFE5E7A0EE744F3342AB40 /* decimal.h */,
+				566A152E18C3808D60B4C661EBC21B7B /* errmsg.h */,
+				D55D1E2C96A6A0A3F834FC31A9047638 /* gcc_builtins.h */,
+				472AC69FA554250164217E06022B19A6 /* generic-msvc.h */,
+				6C8179E4C5336D09DE02524C82FEB799 /* hash.h */,
+				A30564D67143C57C20AA55CC3EFD60AB /* keycache.h */,
+				76A6E724EBEB0D4EBBA8B6C80CCA95A8 /* lf.h */,
+				C00A66895BDA55497943B4AEBF7FAB72 /* m_ctype.h */,
+				D4C4A97A72C550F355B231641900D74D /* m_string.h */,
+				8D25DD30ED60576B248705BED650DF18 /* my_aes.h */,
+				C0731EB295DF9263D15C65EF26DDF1BA /* my_alarm.h */,
+				75F63B048BB4031EBA3E6BF84FD724E2 /* my_alloc.h */,
+				4B282103386B2AFA3ABC9454D481EAAC /* my_atomic.h */,
+				9B41CAB032403AAB39E1FBB7A3654B85 /* my_attribute.h */,
+				DB28E37BEE8579599E8045ED653E7127 /* my_base.h */,
+				3CD397286A040BCFA1E379E8ABA2150E /* my_bit.h */,
+				266E12FF9EEA3902AA450FB73847481C /* my_bitmap.h */,
+				795627EB75EA7A1F9AC2A95E10AEB6D2 /* my_charsets.h */,
+				5BEBA0CD3D2402826505C0BB841030D3 /* my_config.h */,
+				8174C869C2262FC9EACAC5E45D5F4DE6 /* my_dbug.h */,
+				B6DE788CC8FF4CF7A5F07513A18A5475 /* my_dir.h */,
+				45BDFC64CA0D7894519DA531157B2032 /* my_getopt.h */,
+				E61CE14E9CE1C87DA7BD0E076384DBE2 /* my_global.h */,
+				8D5E92E66DCB4C115034FCDBDCB7F513 /* my_libwrap.h */,
+				4FC5CE18B6C36229A554CE0B84700B03 /* my_list.h */,
+				D1F08391C5849EE0E346076DBCD23C5C /* my_md5.h */,
+				72E2C09F802705B189F9B3DA2FC05702 /* my_net.h */,
+				DB2F2550C50A079FB24D042E5BD9EBA9 /* my_no_pthread.h */,
+				EC596A3DF18F9B9D7E4EA6312D1A2195 /* my_nosys.h */,
+				8EE7866CCE6B8A0A253D8E65962884CD /* my_pthread.h */,
+				7B96BD11376348E98C4ECD2471B3BD0F /* my_stacktrace.h */,
+				859F0EC569FC1DFFA768CA34DFDEC09F /* my_sys.h */,
+				7DB39711DEAA8593254078F178B6FEA5 /* my_time.h */,
+				7EEF21452B3F515F9720899E0C73D593 /* my_tree.h */,
+				4E39035D0245DD686A0D67DC2CFC51DC /* my_trie.h */,
+				8EA496FC1DE9DFFF5E6F8E0A66FCDF50 /* my_uctype.h */,
+				A76CBDB9FB0E5FC8CF887921658DBE05 /* my_vle.h */,
+				DABA26999AC3047F9A7467D110215FFE /* my_xml.h */,
+				8C6646755C97F0CD32412480AD7A4BD4 /* myisampack.h */,
+				088D2743E5B305499787CE4A51F39655 /* mysql.h */,
+				5569F4653BDCD342766E85812CF9BD30 /* mysql_com.h */,
+				D5482D56144C59E02B4E477978D7CBC9 /* mysql_time.h */,
+				A87556EA4898B5566B0DA485B4B9D3E6 /* mysql_version.h */,
+				724406F7F2444994435EC847535D3E16 /* mysqld_error.h */,
+				83A77B8B683FF6716D6956C7BCC22D53 /* mysys_err.h */,
+				B4243575D5C07D257B59C7F5A5E69E93 /* nolock.h */,
+				A65C9AE1217EC5DFE575C79CC71231A2 /* queues.h */,
+				B267440A092EFA4DE8D3EF557341D293 /* rijndael.h */,
+				F57C5F0CAAE5EC7D00074F61451E4ED0 /* rwlock.h */,
+				DD1C2ED381F20922916DFB89F927AB43 /* service_versions.h */,
+				3B625AC11056EAEB6B72A3FEC05DA1E8 /* sha1.h */,
+				1FA9AF473F3DD552C8580D0FE729A19F /* sha2.h */,
+				911FE49B5BF8286118431860709B87A6 /* sql_common.h */,
+				D6175F5460210BDE3D1E0EF50DD3D889 /* sslopt-case.h */,
+				F670C90032D9C91F5BF413F7C5DB14DF /* sslopt-longopts.h */,
+				50E84ADB984C25FB5B4214F9A0C90292 /* sslopt-vars.h */,
+				2FECAA451091313A7354296BC5425A41 /* t_ctype.h */,
+				064BC78D9CE42F6218BCC0B5310C041E /* thr_alarm.h */,
+				3D057E827B9986E9C92348235A508E41 /* thr_lock.h */,
+				B0F4945A9EC27C67352C30C876EED7D4 /* typelib.h */,
+				4A02A71B5F97C176E59B40AF91EA7866 /* violite.h */,
+				EC767D4891A67A90B1BDA4AADCD56DE0 /* waiting_threads.h */,
+				DE81037CA3F5C0B290C9DA65BA8585E5 /* wqueue.h */,
+				7C337C38B798B021FBEC0BB83F683843 /* x86-gcc.h */,
+				40F8F03BF85F7246B471F92D4ED21460 /* Frameworks */,
 			);
 			path = "mysql-connector-c";
 			sourceTree = "<group>";
 		};
-		BDAB1BD31E96FFF40D14D6E6 /* Products */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				E046B94624076299155F1913 /* libPods.a */,
-				93EE42E6753F05B0B138AC4B /* libPods-mysql-connector-c.a */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				40E54FE294C47B1CCE2F015604C9F174 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
-		CAE4ED7BBD021C7CA99EA368 /* Frameworks */ = {
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1A88BE6D2BD915BB16ABA7AA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB78CDCAC1E6369D857A7FCE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				18093ACC4D9E28F68D5B6776 /* Pods-acknowledgements.markdown */,
-				1D1E6CD10FAA3A82124C3C49 /* Pods-acknowledgements.plist */,
-				6EE497496CA14D76AA6051D9 /* Pods-dummy.m */,
-				D5459015C013766535114E57 /* Pods-environment.h */,
-				033C818457F748F7F0CD8139 /* Pods-resources.sh */,
-				B71BDB05B677B6FA9961D029 /* Pods.debug.xcconfig */,
-				FB16A11780581B79969D7068 /* Pods.release.xcconfig */,
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				26552AFC608112159652AAF495EBB8C2 /* Pods.debug.xcconfig */,
+				5CDCB8882DC930C1E26A5686F564AE6F /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		D26AAD46A66E5B7AF3EECA4B /* Targets Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB78CDCAC1E6369D857A7FCE /* Pods */,
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		FB09F3EB19E6D1CA27D172FD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE78BAE89C57FD37FCB3FEF5 /* base64.h in Headers */,
-				FD8DDB48C349C57C7A0F304E /* config-win.h in Headers */,
-				74B59ED912C39E79AEDB9ED0 /* decimal.h in Headers */,
-				E0293560CD35BC11414A94E5 /* errmsg.h in Headers */,
-				DDA015DD4EE73A9D515B86DA /* gcc_builtins.h in Headers */,
-				6DEFAEE0023E08887384FCA0 /* generic-msvc.h in Headers */,
-				51E75EF00E2AEA26AFAF8291 /* hash.h in Headers */,
-				4225110CF344D70DAE4500F2 /* keycache.h in Headers */,
-				C42328E936AEB0B50CC7B1DE /* lf.h in Headers */,
-				7AFFD646BFA064CA1889BBC6 /* m_ctype.h in Headers */,
-				9C228F91973FF292E84ED090 /* m_string.h in Headers */,
-				E61CE30B5AAA02357D44FAC2 /* my_aes.h in Headers */,
-				9C064F1FAA4B0C5500E57456 /* my_alarm.h in Headers */,
-				B0207A796874FED4C726DE8D /* my_alloc.h in Headers */,
-				6AC443FBC3D4050FFA1BC4D2 /* my_atomic.h in Headers */,
-				813DF47150598B1204001713 /* my_attribute.h in Headers */,
-				20EAAC52A2DB3275460A03DF /* my_base.h in Headers */,
-				32CBF71D5296BDB81E583232 /* my_bit.h in Headers */,
-				6FB01E4CD7F47BFB1B13FEFF /* my_bitmap.h in Headers */,
-				6E6A4F6D613F3C7703F3F9F5 /* my_charsets.h in Headers */,
-				86FE1FDD2295632B87DFC280 /* my_config.h in Headers */,
-				3179CB99824180BA94E60245 /* my_dbug.h in Headers */,
-				BADA05D5E6291C5F03844DF8 /* my_dir.h in Headers */,
-				9B803798C4554BB340B5E46E /* my_getopt.h in Headers */,
-				55F69DB2353263CE3F0AF144 /* my_global.h in Headers */,
-				48683E1190B174D6DC3B6DB4 /* my_libwrap.h in Headers */,
-				553B1518ED7F12D67725240C /* my_list.h in Headers */,
-				7DEAEC5773F9E25FAF7297D1 /* my_md5.h in Headers */,
-				EBD9E2C79421C0E33367D47C /* my_net.h in Headers */,
-				5F090A27F07B45A5A3336ECC /* my_no_pthread.h in Headers */,
-				3A2D96292FCB5FD94BA9EBBB /* my_nosys.h in Headers */,
-				00063FBE0BC26CE810841A45 /* my_pthread.h in Headers */,
-				36268FD70C8FFB823B7E5912 /* my_stacktrace.h in Headers */,
-				90A56EA9A461DEF22BEA649A /* my_sys.h in Headers */,
-				0DCE2F610C68D8FBE9986136 /* my_time.h in Headers */,
-				7429A8E5728C947B6CDBAC35 /* my_tree.h in Headers */,
-				EC7EDDF38CB825001847F942 /* my_trie.h in Headers */,
-				3F2E87DC39E8627DCDC19B6B /* my_uctype.h in Headers */,
-				9CCD785FFA8DD43BAFAF8327 /* my_vle.h in Headers */,
-				5C4E8B0D61B8CB6FDD064F35 /* my_xml.h in Headers */,
-				E74920411C00C00BBD91D5D8 /* myisampack.h in Headers */,
-				CE85FE2703E7659D78B68FC9 /* mysql.h in Headers */,
-				AA559AF652028821F8EB2813 /* mysql_com.h in Headers */,
-				11B61F12D3965E6396DCBBF3 /* mysql_time.h in Headers */,
-				4916852BBD87C3D7831775D0 /* mysql_version.h in Headers */,
-				D8941CBC9CAFA4C0FB1DFBCC /* mysqld_error.h in Headers */,
-				357AAA951A9B031CD21220C8 /* mysys_err.h in Headers */,
-				8F24B67F513871070BD7B064 /* nolock.h in Headers */,
-				B3A8069158D28D96092EAFB0 /* queues.h in Headers */,
-				326F2E19C615E23C91EE187D /* rijndael.h in Headers */,
-				C99A2A021FE15945D3B87B15 /* rwlock.h in Headers */,
-				1E5754EFB67072E5B0FF70A6 /* service_versions.h in Headers */,
-				3CAFA0F26A60AD3BA40A1571 /* sha1.h in Headers */,
-				4D99824CB2091DCC40B9CE9C /* sha2.h in Headers */,
-				4A0E81E251F6C4EB81F4CE86 /* sql_common.h in Headers */,
-				D39FAD949553252FD39E8D6C /* sslopt-case.h in Headers */,
-				8A4A3B344D182FAAF677F134 /* sslopt-longopts.h in Headers */,
-				28ECC1AB8C4C7663AFCAC240 /* sslopt-vars.h in Headers */,
-				3D5D070E36D33313E6DD2B6E /* t_ctype.h in Headers */,
-				647C6E069ACB4501685D9606 /* thr_alarm.h in Headers */,
-				96EEAFBEE84847071A5E0300 /* thr_lock.h in Headers */,
-				CB4694093F5FAB702CF73BF8 /* typelib.h in Headers */,
-				232D75B6C15BAAA32D28F3FA /* violite.h in Headers */,
-				E689F4C533AA62209D0C335F /* waiting_threads.h in Headers */,
-				9AC00145CE02A8D3896BC4FF /* wqueue.h in Headers */,
-				B11F7F1E996F2E1C7888BAB6 /* x86-gcc.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		247BB7DB35731A0B4DB05916 /* Pods */ = {
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C89A44201F8DB911DA9F69C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				9FD8D01EBC08FCDCC444B911 /* Sources */,
-				31B86AAAF0303BC5D0370EF8 /* Frameworks */,
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F6B16ED2AF177316FE04F4E /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = E046B94624076299155F1913 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BFF08AF7358848DADAEDBE1C /* Pods-mysql-connector-c */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64AA90CFB7EE79A9BE331977 /* Build configuration list for PBXNativeTarget "Pods-mysql-connector-c" */;
-			buildPhases = (
-				03DE62350585529E03FABBD3 /* Sources */,
-				2B713609FCDE866D03462A6A /* Frameworks */,
-				FB09F3EB19E6D1CA27D172FD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-mysql-connector-c";
-			productName = "Pods-mysql-connector-c";
-			productReference = 93EE42E6753F05B0B138AC4B /* libPods-mysql-connector-c.a */;
+			productReference = AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		98028ACE2C82855024AE219E /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = B64BC424157544E79E6A2A9D /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 06C91AC65A9CDE985567E91E;
-			productRefGroup = BDAB1BD31E96FFF40D14D6E6 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				247BB7DB35731A0B4DB05916 /* Pods */,
-				BFF08AF7358848DADAEDBE1C /* Pods-mysql-connector-c */,
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03DE62350585529E03FABBD3 /* Sources */ = {
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BFC0D04DB806D6C06AC6DA /* Pods-mysql-connector-c-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD8D01EBC08FCDCC444B911 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E27FC3951DC05D74628177CD /* Pods-dummy.m in Sources */,
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0F6B16ED2AF177316FE04F4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-mysql-connector-c";
-			target = BFF08AF7358848DADAEDBE1C /* Pods-mysql-connector-c */;
-			targetProxy = BFA5C4C09F6C2F15057EB190 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		16940BE43D0CBD9C7DC2E5BF /* Debug */ = {
+		4D10CD8280B7A76B29DB1715F6733F0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B71BDB05B677B6FA9961D029 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 5CDCB8882DC930C1E26A5686F564AE6F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B828D9729991F71E60AA3FBF3A77AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26552AFC608112159652AAF495EBB8C2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -540,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		177418E7F5A983E553920539 /* Debug */ = {
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -579,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		ABBC76FF471726343B79F7D1 /* Release */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -613,85 +411,28 @@
 			};
 			name = Release;
 		};
-		D0A12E864E5D412D2277D04E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0A5331F31842A501359CF71 /* Pods-mysql-connector-c-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-mysql-connector-c/Pods-mysql-connector-c-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E46E6BC1EDA7428AABFF947D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0A5331F31842A501359CF71 /* Pods-mysql-connector-c-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-mysql-connector-c/Pods-mysql-connector-c-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F41C5AB4F98E7AEE92B58981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB16A11780581B79969D7068 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C89A44201F8DB911DA9F69C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16940BE43D0CBD9C7DC2E5BF /* Debug */,
-				F41C5AB4F98E7AEE92B58981 /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64AA90CFB7EE79A9BE331977 /* Build configuration list for PBXNativeTarget "Pods-mysql-connector-c" */ = {
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E46E6BC1EDA7428AABFF947D /* Debug */,
-				D0A12E864E5D412D2277D04E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B64BC424157544E79E6A2A9D /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				177418E7F5A983E553920539 /* Debug */,
-				ABBC76FF471726343B79F7D1 /* Release */,
+				9B828D9729991F71E60AA3FBF3A77AB7 /* Debug */,
+				4D10CD8280B7A76B29DB1715F6733F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 98028ACE2C82855024AE219E /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
