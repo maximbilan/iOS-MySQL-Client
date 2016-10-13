@@ -1,0 +1,6 @@
+framework module Pods_ios_mysql_client {
+  umbrella header "Pods-ios_mysql_client-umbrella.h"
+
+  export *
+  module * { export * }
+}
