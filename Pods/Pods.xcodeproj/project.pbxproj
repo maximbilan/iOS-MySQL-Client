@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A30E73366D2A4E40B7A890431AF4C64 /* Pods-ios_mysql_client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F558131F00F2F232C11B9D9FEAC966BF /* Pods-ios_mysql_client-dummy.m */; };
-		C66B931577515391FD3184F331C5828B /* Pods-ios_mysql_client-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4192877DE8CB440143BD8DA7FDC095E /* Pods-ios_mysql_client-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E274D49A1D5003F94C56C592E0E537E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4926FEB50C94E6A203419F40F2F494E2 /* Pods-ios_mysql_client-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4192877DE8CB440143BD8DA7FDC095E /* Pods-ios_mysql_client-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F44969F24643DF1D71632FA2C7289FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D71DD414E9CF2E998DAC296AE81C0171 /* Pods-ios_mysql_client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F558131F00F2F232C11B9D9FEAC966BF /* Pods-ios_mysql_client-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		1FA9AF473F3DD552C8580D0FE729A19F /* sha2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha2.h; path = Sources/include/sha2.h; sourceTree = "<group>"; };
 		266E12FF9EEA3902AA450FB73847481C /* my_bitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bitmap.h; path = Sources/include/my_bitmap.h; sourceTree = "<group>"; };
 		2FECAA451091313A7354296BC5425A41 /* t_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = t_ctype.h; path = Sources/include/t_ctype.h; sourceTree = "<group>"; };
-		3B4F096F23420B6B8CCA3AA61CBF9D3C /* Pods-ios_mysql_client.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ios_mysql_client.modulemap"; sourceTree = "<group>"; };
+		3B4F096F23420B6B8CCA3AA61CBF9D3C /* Pods-ios_mysql_client.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ios_mysql_client.modulemap"; sourceTree = "<group>"; };
 		3B625AC11056EAEB6B72A3FEC05DA1E8 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = Sources/include/sha1.h; sourceTree = "<group>"; };
 		3C1485B9534573E7FB0A5327751F5AF5 /* Pods-ios_mysql_client-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios_mysql_client-frameworks.sh"; sourceTree = "<group>"; };
 		3CD397286A040BCFA1E379E8ABA2150E /* my_bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_bit.h; path = Sources/include/my_bit.h; sourceTree = "<group>"; };
@@ -38,6 +38,7 @@
 		566A152E18C3808D60B4C661EBC21B7B /* errmsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errmsg.h; path = Sources/include/errmsg.h; sourceTree = "<group>"; };
 		57B358E7B9A40F44CA2ABDFFA62B314A /* Pods-ios_mysql_client-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios_mysql_client-acknowledgements.plist"; sourceTree = "<group>"; };
 		5BEBA0CD3D2402826505C0BB841030D3 /* my_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_config.h; path = Sources/include/my_config.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C8179E4C5336D09DE02524C82FEB799 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Sources/include/hash.h; sourceTree = "<group>"; };
 		724406F7F2444994435EC847535D3E16 /* mysqld_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysqld_error.h; path = Sources/include/mysqld_error.h; sourceTree = "<group>"; };
 		72E2C09F802705B189F9B3DA2FC05702 /* my_net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_net.h; path = Sources/include/my_net.h; sourceTree = "<group>"; };
@@ -57,7 +58,7 @@
 		8EA496FC1DE9DFFF5E6F8E0A66FCDF50 /* my_uctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_uctype.h; path = Sources/include/my_uctype.h; sourceTree = "<group>"; };
 		8EE7866CCE6B8A0A253D8E65962884CD /* my_pthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_pthread.h; path = Sources/include/my_pthread.h; sourceTree = "<group>"; };
 		911FE49B5BF8286118431860709B87A6 /* sql_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sql_common.h; path = Sources/include/sql_common.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B41CAB032403AAB39E1FBB7A3654B85 /* my_attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_attribute.h; path = Sources/include/my_attribute.h; sourceTree = "<group>"; };
 		A30564D67143C57C20AA55CC3EFD60AB /* keycache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keycache.h; path = Sources/include/keycache.h; sourceTree = "<group>"; };
 		A65C9AE1217EC5DFE575C79CC71231A2 /* queues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queues.h; path = Sources/include/queues.h; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		B6DE788CC8FF4CF7A5F07513A18A5475 /* my_dir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dir.h; path = Sources/include/my_dir.h; sourceTree = "<group>"; };
 		C00A66895BDA55497943B4AEBF7FAB72 /* m_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_ctype.h; path = Sources/include/m_ctype.h; sourceTree = "<group>"; };
 		C0731EB295DF9263D15C65EF26DDF1BA /* my_alarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alarm.h; path = Sources/include/my_alarm.h; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF18F513A6BFE5E7A0EE744F3342AB40 /* decimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimal.h; path = Sources/include/decimal.h; sourceTree = "<group>"; };
 		D1F08391C5849EE0E346076DBCD23C5C /* my_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_md5.h; path = Sources/include/my_md5.h; sourceTree = "<group>"; };
 		D317A7C273987883073AD1FEAED10CDE /* Pods-ios_mysql_client-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios_mysql_client-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		E61CE14E9CE1C87DA7BD0E076384DBE2 /* my_global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_global.h; path = Sources/include/my_global.h; sourceTree = "<group>"; };
 		EC596A3DF18F9B9D7E4EA6312D1A2195 /* my_nosys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_nosys.h; path = Sources/include/my_nosys.h; sourceTree = "<group>"; };
 		EC767D4891A67A90B1BDA4AADCD56DE0 /* waiting_threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = waiting_threads.h; path = Sources/include/waiting_threads.h; sourceTree = "<group>"; };
-		F03F473FD3F5F6CED90DC02AFB6A99D0 /* Pods_ios_mysql_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mysql_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03F473FD3F5F6CED90DC02AFB6A99D0 /* Pods_ios_mysql_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_mysql_client.framework; path = "Pods-ios_mysql_client.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4192877DE8CB440143BD8DA7FDC095E /* Pods-ios_mysql_client-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios_mysql_client-umbrella.h"; sourceTree = "<group>"; };
 		F4CFF372469481FBD22AFEBD8536C521 /* Pods-ios_mysql_client-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios_mysql_client-resources.sh"; sourceTree = "<group>"; };
 		F558131F00F2F232C11B9D9FEAC966BF /* Pods-ios_mysql_client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios_mysql_client-dummy.m"; sourceTree = "<group>"; };
@@ -96,11 +96,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A5B48A2BB5D470206966A5FE9A90454 /* Frameworks */ = {
+		0E383F6BC5B03680141CE67BF04859B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E274D49A1D5003F94C56C592E0E537E2 /* Foundation.framework in Frameworks */,
+				9F44969F24643DF1D71632FA2C7289FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,14 +113,6 @@
 				F03F473FD3F5F6CED90DC02AFB6A99D0 /* Pods_ios_mysql_client.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		40E54FE294C47B1CCE2F015604C9F174 /* Pods */ = {
@@ -236,6 +228,7 @@
 				7C337C38B798B021FBEC0BB83F683843 /* x86-gcc.h */,
 				40F8F03BF85F7246B471F92D4ED21460 /* Frameworks */,
 			);
+			name = "mysql-connector-c";
 			path = "mysql-connector-c";
 			sourceTree = "<group>";
 		};
@@ -253,32 +246,40 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D1D8735AC009F859AC861A4B6ACBB6D2 /* Headers */ = {
+		B1EF17AF59D1045D9F4DB448FC98B1F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C66B931577515391FD3184F331C5828B /* Pods-ios_mysql_client-umbrella.h in Headers */,
+				4926FEB50C94E6A203419F40F2F494E2 /* Pods-ios_mysql_client-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A19B639757280AC972387FAB775B697 /* Pods-ios_mysql_client */ = {
+		5EB23D6FA7A2D87D5441021FA0D736DE /* Pods-ios_mysql_client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8349313C943796119417A27A8D8ADEF1 /* Build configuration list for PBXNativeTarget "Pods-ios_mysql_client" */;
+			buildConfigurationList = 77B82414C397D7DDF3F04FBEC6283021 /* Build configuration list for PBXNativeTarget "Pods-ios_mysql_client" */;
 			buildPhases = (
-				ECF75CF607EACA8E139E493C83414F73 /* Sources */,
-				7A5B48A2BB5D470206966A5FE9A90454 /* Frameworks */,
-				D1D8735AC009F859AC861A4B6ACBB6D2 /* Headers */,
+				56706CE07527A88C8C803018103B2853 /* Sources */,
+				0E383F6BC5B03680141CE67BF04859B9 /* Frameworks */,
+				B1EF17AF59D1045D9F4DB448FC98B1F7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -295,7 +296,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -310,28 +311,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A19B639757280AC972387FAB775B697 /* Pods-ios_mysql_client */,
+				5EB23D6FA7A2D87D5441021FA0D736DE /* Pods-ios_mysql_client */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECF75CF607EACA8E139E493C83414F73 /* Sources */ = {
+		56706CE07527A88C8C803018103B2853 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A30E73366D2A4E40B7A890431AF4C64 /* Pods-ios_mysql_client-dummy.m in Sources */,
+				D71DD414E9CF2E998DAC296AE81C0171 /* Pods-ios_mysql_client-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -339,10 +341,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -367,50 +372,17 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		3D40B51E76EAB08B620A944E675B7AC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4708DC0FE463D31530511BFCC6C17B09 /* Pods-ios_mysql_client.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ios_mysql_client/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ios_mysql_client;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -418,10 +390,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -446,10 +421,11 @@
 			};
 			name = Release;
 		};
-		9F77053DC6E81497E1B33EB40F45CCEB /* Debug */ = {
+		4E59318C578433376D8B5E8D0EB20DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7037AB5D1A5A19777B10C1E0B427D32 /* Pods-ios_mysql_client.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -481,23 +457,59 @@
 			};
 			name = Debug;
 		};
+		EF73B6959E3CA9077F619397C4378B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4708DC0FE463D31530511BFCC6C17B09 /* Pods-ios_mysql_client.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ios_mysql_client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ios_mysql_client;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8349313C943796119417A27A8D8ADEF1 /* Build configuration list for PBXNativeTarget "Pods-ios_mysql_client" */ = {
+		77B82414C397D7DDF3F04FBEC6283021 /* Build configuration list for PBXNativeTarget "Pods-ios_mysql_client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F77053DC6E81497E1B33EB40F45CCEB /* Debug */,
-				3D40B51E76EAB08B620A944E675B7AC0 /* Release */,
+				4E59318C578433376D8B5E8D0EB20DA8 /* Debug */,
+				EF73B6959E3CA9077F619397C4378B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
